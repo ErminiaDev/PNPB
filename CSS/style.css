@@ -10,6 +10,12 @@ a {
 a:hover {
   color: inherit; }
 
+h3 {
+  font-size: 1.1rem; }
+
+h4 {
+  font-size: 1.0rem; }
+
 .intro {
   line-height: 140%; }
   .intro span {
@@ -41,6 +47,22 @@ a:hover {
 
 #engagements .details {
   line-height: 140%; }
+
+#produits h3 {
+  color: #DD8100; }
+
+#produits h4 {
+  color: #DD8100;
+  font-weight: 300; }
+
+#produits .items p {
+  line-height: 120%;
+  font-size: 0.9rem;
+  font-weight: 300; }
+
+#produits h5 {
+  color: #DD8100;
+  font-size: 1.2rem; }
 
 .navbar__logo {
   height: 200px;
@@ -165,4 +187,5 @@ button {
   background-color: #ebebeb; }
 
 .accordion-content {
+  display: "none";
   transition: display 0.5s; }

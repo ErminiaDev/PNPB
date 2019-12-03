@@ -16,9 +16,9 @@
                     </div>
                     <div class="px-5">
                         <div class="row pt-5 d-flex justify-content-center intro">
-                            <p>
+                            <h3>
                                 Le fonctionnement de Pain noir - Pain blanc repose sur <span class="highlight">2 idées fondamentales</span> :
-                            </p>
+                            </h3>
                         </div>
                         <div class="row pt-5 pb-5 px-3">
                             <div class="col-6">
