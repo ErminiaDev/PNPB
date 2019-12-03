@@ -1,0 +1,65 @@
+// Gray body and headings
+
+.body {
+    background-color: $gray;
+
+    &__heading {
+        width: 500px;
+        height:100px;
+        clip-path: polygon(0 0, 50% 100%, 100% 0);
+        background-color: $brown;
+        color: $light-gray;
+        font-size: 0.9rem;
+
+        h2 {
+            font-size: 1.6rem;
+            font-weight: 300;
+        }  
+    }
+}
+
+// Carousel for main page
+
+.carousel-item {
+height: 450px;
+}
+
+.carousel-image-1 {
+background: url("../images/img-4.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.carousel-image-2 {
+background: url("../images/img-5.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.carousel-image-3 {
+background: url("../images/img-6.jpg");
+background-size: cover;
+background-position: center;
+}
+
+.learn_more-obj {
+    width: 60px;
+    height: 30px;
+    clip-path: polygon(0 0, 0 100%, 90% 50%);
+    background-color: $orange;
+    color: $orange;
+}
+
+.details {
+    background-color: white;
+}
+
+button {
+    border: none;
+    background-color: $gray;
+}
+
+.accordion-content {
+    display: "none";
+    transition: display 0.5s;
+}

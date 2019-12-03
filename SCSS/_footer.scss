@@ -1,0 +1,36 @@
+.footer {
+    background-color: $brown;
+    font-size: 0.8rem;
+    line-height: 100%;
+    color: $light-gray;
+
+    &__title {
+        text-transform: uppercase;
+        font-size: 1.0rem;
+    }
+
+    &__link {
+        font-size: 0.7rem;
+        font-weight: 300;
+    }
+
+    &__link--social {
+        font-size: 2.1rem;
+    }
+
+    &__developer {
+        font-size: 0.7rem;
+        font-weight: 200;
+        font-style: italic;
+
+        &--name {
+            font-family:'Sacramento', cursive;
+            font-size: 1.4rem;
+            font-style: normal;
+        }
+
+        &--year {
+            font-style: normal;
+        }
+    }
+}

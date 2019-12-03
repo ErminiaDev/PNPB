@@ -1,0 +1,30 @@
+.navbar__logo{
+    height: 200px;
+    box-shadow: 1px 1px 3px;
+}
+
+.navbar-brand {
+    z-index: 1;
+}
+
+.navbar-nav {
+    width: 100%;
+}
+
+.header__info-box{
+    height: 100px;
+    background-color: $gray;
+}
+
+#mainNavbar {
+    height: 100px;
+    background-color: $brown;
+    font-size: 1.1rem;
+    font-weight: 300;
+    text-shadow: 0 0 0.5px;
+}
+
+.nav-link {
+    color: white;
+}
+

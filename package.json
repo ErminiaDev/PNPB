@@ -1,0 +1,17 @@
+{
+  "name": "pnpb",
+  "version": "1.0.0",
+  "description": "Landing Page for Pain noir - Pain blanc",
+  "main": "index.js",
+  "scripts": {
+    "compile:sass": "node-sass SCSS/style.scss CSS/style.css -w"
+  },
+  "author": "Marine Jeanningros",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^4.13.0"
+  },
+  "dependencies": {
+    "jquery": "^3.4.1"
+  }
+}

@@ -1,0 +1,56 @@
+body {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400;
+    line-height: 110%;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+a:hover {
+    color: inherit;
+    }
+
+.intro {
+    line-height: 140%;
+
+    & span {
+        color: $orange;
+        font-weight: 500;
+    }
+}
+
+.highlight {
+    color: $orange;
+    font-weight: 600;
+}
+
+.text__part-1, .text__part-2 {
+    font-size: 1.4rem;
+    font-style: italic;
+    line-height: 140%;
+}
+
+#engagements .intro {
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+#engagements .accordion {
+    color: $orange;
+}
+
+#engagements .accordion-content {
+    line-height: 140%;
+}
+
+#engagements .details__title {
+    color: $orange;
+    font-size: 1.1rem;
+}
+
+#engagements .details {
+    line-height: 140%;
+}

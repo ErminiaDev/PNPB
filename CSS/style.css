@@ -1,0 +1,168 @@
+body {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  line-height: 110%; }
+
+a {
+  text-decoration: none;
+  color: inherit; }
+
+a:hover {
+  color: inherit; }
+
+.intro {
+  line-height: 140%; }
+  .intro span {
+    color: #DD8100;
+    font-weight: 500; }
+
+.highlight {
+  color: #DD8100;
+  font-weight: 600; }
+
+.text__part-1, .text__part-2 {
+  font-size: 1.4rem;
+  font-style: italic;
+  line-height: 140%; }
+
+#engagements .intro {
+  font-size: 1.1rem;
+  font-weight: 500; }
+
+#engagements .accordion {
+  color: #DD8100; }
+
+#engagements .accordion-content {
+  line-height: 140%; }
+
+#engagements .details__title {
+  color: #DD8100;
+  font-size: 1.1rem; }
+
+#engagements .details {
+  line-height: 140%; }
+
+.navbar__logo {
+  height: 200px;
+  box-shadow: 1px 1px 3px; }
+
+.navbar-brand {
+  z-index: 1; }
+
+.navbar-nav {
+  width: 100%; }
+
+.header__info-box {
+  height: 100px;
+  background-color: #ebebeb; }
+
+#mainNavbar {
+  height: 100px;
+  background-color: #847765;
+  font-size: 1.1rem;
+  font-weight: 300;
+  text-shadow: 0 0 0.5px; }
+
+.nav-link {
+  color: white; }
+
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit; }
+
+body {
+  box-sizing: border-box; }
+
+main {
+  background-color: white; }
+
+.footer {
+  background-color: #847765;
+  font-size: 0.8rem;
+  line-height: 100%;
+  color: #F7F3F3; }
+  .footer__title {
+    text-transform: uppercase;
+    font-size: 1.0rem; }
+  .footer__link {
+    font-size: 0.7rem;
+    font-weight: 300; }
+  .footer__link--social {
+    font-size: 2.1rem; }
+  .footer__developer {
+    font-size: 0.7rem;
+    font-weight: 200;
+    font-style: italic; }
+    .footer__developer--name {
+      font-family: 'Sacramento', cursive;
+      font-size: 1.4rem;
+      font-style: normal; }
+    .footer__developer--year {
+      font-style: normal; }
+
+.intro__img img {
+  max-width: 100%;
+  object-fit: cover; }
+
+.jumbo-image {
+  height: 450px;
+  background: url("../images/img-5.jpg");
+  background-size: cover;
+  background-position: center; }
+
+#engagements .img-2 {
+  max-height: 130px; }
+
+#engagements .img-3 {
+  max-height: 100px; }
+
+.body {
+  background-color: #ebebeb; }
+  .body__heading {
+    width: 500px;
+    height: 100px;
+    clip-path: polygon(0 0, 50% 100%, 100% 0);
+    background-color: #847765;
+    color: #F7F3F3;
+    font-size: 0.9rem; }
+    .body__heading h2 {
+      font-size: 1.6rem;
+      font-weight: 300; }
+
+.carousel-item {
+  height: 450px; }
+
+.carousel-image-1 {
+  background: url("../images/img-4.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.carousel-image-2 {
+  background: url("../images/img-5.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.carousel-image-3 {
+  background: url("../images/img-6.jpg");
+  background-size: cover;
+  background-position: center; }
+
+.learn_more-obj {
+  width: 60px;
+  height: 30px;
+  clip-path: polygon(0 0, 0 100%, 90% 50%);
+  background-color: #DD8100;
+  color: #DD8100; }
+
+.details {
+  background-color: white; }
+
+button {
+  border: none;
+  background-color: #ebebeb; }
+
+.accordion-content {
+  transition: display 0.5s; }
