@@ -39,7 +39,7 @@
 
     <title>Pain noir - Pain blanc</title>
 </head>
-<body onload= "accordionFunc();">
+<body>
 
     <header class="header">
         <div class="header__logo-box">

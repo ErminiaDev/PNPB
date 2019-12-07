@@ -182,10 +182,26 @@ main {
 .details {
   background-color: white; }
 
-button {
+button.accordion {
   border: none;
   background-color: #ebebeb; }
 
+.accordion::after {
+  font-family: "Font Awesome 5 Pro";
+  font-weight: 700;
+  content: '\f067';
+  font-size: 0.8rem;
+  padding-left: 5px; }
+
+.accordion.is-open::after {
+  content: '\f068'; }
+
 .accordion-content {
-  display: "none";
-  transition: display 0.5s; }
+  color: transparent;
+  padding: 0px;
+  max-height: 0px;
+  overflow: hidden;
+  transition-property: max-height, color;
+  transition-duration: 0.5s, 1s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-delay: 0s, 0.4s; }

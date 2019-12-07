@@ -1,3 +1,29 @@
+document.querySelectorAll('.accordion').forEach(item => {
+    item.addEventListener('click', event => {
+        var parent = item.closest('.accordion-wrapper');
+        var content = parent.querySelector('.accordion-content');
+        var button = parent.querySelector('.accordion');
+        
+        button.classList.toggle('is-open');
+
+        console.log(button);
+
+        if (content.style.maxHeight){
+
+            content.style.maxHeight= null;
+            content.style.color = 'transparent';
+            
+
+        } else {
+            
+            content.style.maxHeight= content.scrollHeight + "px";
+            content.style.color = 'black';
+            button.style.content = 'f056'
+        }
+    })
+})
+
+
 //FIRST SOLUTION: the problem with fetching the parent is that we have to go up until line 17 with <div px-5> to find a common parent
 
 
@@ -41,26 +67,26 @@
 
 
 
-var accordions = document.getElementsByClassName("accordion");
-var content = document.getElementsByClassName("accordion-content");
+// var accordions = document.getElementsByClassName("accordion");
+// var content = document.getElementsByClassName("accordion-content");
 
-function accordionFunc() {
+// function accordionFunc() {
 
-    for (var i = 0; i < accordions.length; i++){
-        var currentAccordion = accordions[i];
-        var currentContent = content[i];
-        console.log(currentAccordion);
-        console.log(currentContent);
-        currentAccordion.addEventListener("click", function(){
-            console.log(currentAccordion);
-            console.log(currentContent);
+//     for (var i = 0; i < accordions.length; i++){
+//         var currentAccordion = accordions[i];
+//         var currentContent = content[i];
+//         console.log(currentAccordion);
+//         console.log(currentContent);
+//         currentAccordion.addEventListener("click", function(){
+//             console.log(currentAccordion);
+//             console.log(currentContent);
 
-            if (currentContent.style.display === "block") {
-                currentContent.style.display = "none";
-            } else {
-                currentContent.style.display = "block"
-            }
-        })
-    }    
-};
+//             if (currentContent.style.display === "block") {
+//                 currentContent.style.display = "none";
+//             } else {
+//                 currentContent.style.display = "block"
+//             }
+//         })
+//     }    
+// };
 
