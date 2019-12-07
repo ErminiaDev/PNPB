@@ -30,7 +30,7 @@
                                         L'humain.e au coeur du processus de production : ce sont les femmes et les hommes qui produisent le pain qui font aussi sa qualité.
                                     </p>
                                     <button class="accordion">
-                                        En savoir plus
+                                        En savoir
                                     </button>
                                 </div>
                             </div>
@@ -60,7 +60,7 @@
                                         l'agriculture paysanne et locale quand cela est possible et sont exclusivement d'origine biologique. 
                                     </p>
                                     <button class="accordion">
-                                        En savoir plus
+                                        En savoir
                                     </button>
                                 </div>
                                 <div class="col-4">

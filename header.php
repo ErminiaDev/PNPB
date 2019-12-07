@@ -29,7 +29,7 @@
     <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 
     <!-- Font awesome -->
-    <script src="https://kit.fontawesome.com/c2ac0bd41e.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="font-awesome/css/all.css">
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="CSS/bootstrap.css">
