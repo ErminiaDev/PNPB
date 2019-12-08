@@ -5,7 +5,7 @@
 
     <section class="jumbo-image"></section>
 
-    <section id="produits">
+    <section id="index-gallery">
         <div class="container">
             <div class="row">
                 <div class="body col-9 mx-auto">
@@ -25,148 +25,109 @@
                                 </p>
                             </div>
                             <div class="row items">
+                                <div class="col-4 py-3">
+                                    <div class=" gallery-img img1">
+                                        <div class="d-flex justify-content-center">
+                                            <a class="align-self-center" href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                            <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
+                                    </div>
+                                    <h4 class="py-3 text-center">Lorem ipsum</h4>
+                                    <p class="text-center">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
+                                    </p>
+                                </div>
                                 <div class="col-4 py-3 text-center">
-                                    <img src="images/img-15.jpg" alt="" class="img-fluid shadow">
+                                    <div class=" gallery-img img2">
+                                        <div class="d-flex justify-content-center">
+                                            <a class="align-self-center" href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                            <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
+                                    </div>
                                     <h4 class="py-3">Lorem ipsum</h4>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
                                     </p>
                                 </div>
                                 <div class="col-4 py-3 text-center">
-                                    <img src="images/img-10.jpg" alt="" class="img-fluid shadow">
+                                    <div class=" gallery-img img3">
+                                        <div class="d-flex justify-content-center">
+                                            <a class="align-self-center" href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                            <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
+                                    </div>
                                     <h4 class="py-3">Lorem ipsum</h4>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
                                     </p>
                                 </div>
                                 <div class="col-4 py-3 text-center">
-                                    <img src="images/img-11.jpg" alt="" class="img-fluid shadow">
+                                    <div class=" gallery-img img4">
+                                        <div class="d-flex justify-content-center">
+                                            <a class="align-self-center" href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                            <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
+                                    </div>
                                     <h4 class="py-3">Lorem ipsum</h4>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
                                     </p>
                                 </div>
                                 <div class="col-4 py-3 text-center">
-                                    <img src="images/img-12.jpg" alt="" class="img-fluid shadow">
+                                    <div class=" gallery-img img5">
+                                        <div class="d-flex justify-content-center">
+                                            <a class="align-self-center" href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                            <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
+                                    </div>
                                     <h4 class="py-3">Lorem ipsum</h4>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
                                     </p>
                                 </div>
                                 <div class="col-4 py-3 text-center">
-                                    <img src="images/img-13.jpg" alt="" class="img-fluid shadow">
+                                    <div class=" gallery-img img6">
+                                        <div class="d-flex justify-content-center">
+                                            <a class="align-self-center" href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                            <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
+                                    </div>
                                     <h4 class="py-3">Lorem ipsum</h4>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
                                     </p>
                                 </div>
                                 <div class="col-4 py-3 text-center">
-                                    <img src="images/img-14.jpg" alt="" class="img-fluid shadow">
+                                    <div class=" gallery-img img7">
+                                        <div class="d-flex justify-content-center">
+                                            <a class="align-self-center" href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                            <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
+                                    </div>
                                     <h4 class="py-3">Lorem ipsum</h4>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
                                     </p>
                                 </div>
                                 <div class="col-4 py-3 text-center">
-                                    <img src="images/img-15.jpg" alt="" class="img-fluid shadow">
+                                    <div class=" gallery-img img8">
+                                        <div class="d-flex justify-content-center">
+                                            <a class="align-self-center" href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                            <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
+                                    </div>
                                     <h4 class="py-3">Lorem ipsum</h4>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
                                     </p>
                                 </div>
                                 <div class="col-4 py-3 text-center">
-                                    <img src="images/img-10.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-11.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-12.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-13.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-14.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-15.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-10.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-11.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-12.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-13.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-14.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-15.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-10.jpg" alt="" class="img-fluid shadow">
-                                    <h4 class="py-3">Lorem ipsum</h4>
-                                    <p>
-                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!
-                                    </p>
-                                </div>
-                                <div class="col-4 py-3 text-center">
-                                    <img src="images/img-11.jpg" alt="" class="img-fluid shadow">
+                                    <div class=" gallery-img img9">
+                                        <div class="d-flex justify-content-center">
+                                            <a class="align-self-center" href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                            <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
+                                    </div>
                                     <h4 class="py-3">Lorem ipsum</h4>
                                     <p>
                                         Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur, necessitatibus!

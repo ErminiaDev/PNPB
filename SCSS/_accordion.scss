@@ -1,0 +1,29 @@
+
+button.accordion {
+    border: none;
+    background-color: $gray;
+}
+
+.accordion::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: '\f055';
+    color: $light-orange;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+
+.accordion.is-open::after {
+    content: '\f056';
+}
+
+.accordion-content {
+    color: transparent;
+    padding:0px;
+    max-height: 0px;
+    overflow: hidden;
+    transition-property: max-height, color;
+    transition-duration: 0.5s, 1s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s, 0.4s;
+}

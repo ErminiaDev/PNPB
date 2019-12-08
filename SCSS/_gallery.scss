@@ -1,0 +1,120 @@
+#index-gallery .gallery-img {
+    width: 100%;
+    height: 160px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    border-radius: 1%;
+}
+
+#index-gallery .img1 {
+    background-image: url("../images/thumbs/img1.jpg")
+}
+
+#index-gallery .img2 {
+    background-image: url("../images/thumbs/img2.jpg")
+}
+
+#index-gallery .img3 {
+    background-image: url("../images/thumbs/img3.jpg")
+}
+
+#index-gallery .img4 {
+    background-image: url("../images/thumbs/img4.jpg")
+}
+
+#index-gallery .img5 {
+    background-image: url("../images/thumbs/img5.jpg")
+}
+
+#index-gallery .img6 {
+    background-image: url("../images/thumbs/img6.jpg")
+}
+
+#index-gallery .img7 {
+    background-image: url("../images/thumbs/img7.jpg")
+}
+
+#index-gallery .img8 {
+    background-image: url("../images/thumbs/img8.jpg")
+}
+
+#index-gallery .img9 {
+    background-image: url("../images/thumbs/img9.jpg")
+}
+
+.gallery-img div {
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    opacity: 0;
+}
+
+.gallery-img div:hover {
+    opacity: 0.6;
+    transition: all ease-in-out 100ms;
+    text-decoration: none;
+}
+
+.gallery-img a {
+    font-size: 1.2rem;
+    color: black;
+}
+
+// popup window when clicked
+
+.img-window {
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.8);
+    position: fixed;
+    top: 0;
+    left: 0;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 100;
+}
+
+.img-window img {
+    max-height: 80vh;
+    max-width: 80vw;
+    border: solid 3px rgba(255, 255, 255, 0.9);
+    border-radius: 0.5%;
+}
+
+// Next image
+.img-btn-next {
+    display: block;
+    position: fixed;
+    top: 48vh;
+    z-index: 500;
+}
+
+.img-btn-fa-next {
+    font-size: 1.2rem;
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.img-btn-fa-next:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
+.img-btn-prev {
+    display: block;
+    position: fixed;
+    top: 48vh;
+    z-index: 500;
+}
+
+.img-btn-fa-prev {
+    font-size: 1.2rem;
+    color:rgba(255, 255, 255, 0.8);
+}
+
+.img-btn-fa-prev:hover {
+    color: rgba(255, 255, 255, 1);
+}
+
