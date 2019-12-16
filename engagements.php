@@ -17,9 +17,9 @@
                     <div class="px-5">
                         <div class="accordion-wrapper">
                             <div class="row pt-5 d-flex justify-content-center intro">
-                                <h3>
+                                <p>
                                     Le fonctionnement de Pain noir - Pain blanc repose sur <span class="highlight">2 idées fondamentales</span> :
-                                </h3>
+                                </p>
                             </div>
                             <div class="row pt-5 pb-5 px-3">
                                 <div class="col-6">
@@ -34,7 +34,7 @@
                                     </button>
                                 </div>
                             </div>
-                            <div class="row text-justify accordion-content closed" >
+                            <div class="row text-justify accordion-content" >
                                 <div class="col-12 px-4">
                                     <p>
                                         D'abord dans les champs où les paysanne.s sélectionnent et cultivent des mélanges de céréales ("blés populations") 

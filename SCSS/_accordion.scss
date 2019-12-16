@@ -27,3 +27,35 @@ button.accordion {
     transition-timing-function: ease-in-out, ease-in-out;
     transition-delay: 0s, 0.4s;
 }
+#pointsdevente button {
+    display: inline;
+}
+
+button.accordion-2 {
+    border: none;
+    background-color: $gray;
+}
+
+.accordion-2::after {
+    font-family: "Font Awesome 5 Free";
+    font-weight: 700;
+    content: '\f056';
+    color: $light-orange;
+    font-size: 0.9rem;
+    padding-left: 5px;
+}
+
+.accordion-2.is-closed::after {
+    content: '\f055';
+}
+
+.accordion-content-2 {
+    color: black;
+    padding:0px;
+    max-height: 255px;
+    overflow: hidden;
+    transition-property: max-height, color;
+    transition-duration: 0.5s, 1s;
+    transition-timing-function: ease-in-out, ease-in-out;
+    transition-delay: 0s, 0.4s;
+}

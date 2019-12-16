@@ -11,7 +11,8 @@ a:hover {
   color: inherit; }
 
 h3 {
-  font-size: 1.1rem; }
+  font-size: 1.3rem;
+  color: #DD8100; }
 
 h4 {
   font-size: 1.0rem; }
@@ -63,6 +64,12 @@ h4 {
 #produits h5 {
   color: #DD8100;
   font-size: 1.2rem; }
+
+.medium {
+  font-weight: 500; }
+
+#pointsdevente i {
+  font-size: 2.5rem; }
 
 .navbar__logo {
   height: 200px;
@@ -182,6 +189,9 @@ main {
 .details {
   background-color: white; }
 
+#pointsdevente iframe {
+  height: 100%; }
+
 button.accordion {
   border: none;
   background-color: #ebebeb; }
@@ -201,6 +211,34 @@ button.accordion {
   color: transparent;
   padding: 0px;
   max-height: 0px;
+  overflow: hidden;
+  transition-property: max-height, color;
+  transition-duration: 0.5s, 1s;
+  transition-timing-function: ease-in-out, ease-in-out;
+  transition-delay: 0s, 0.4s; }
+
+#pointsdevente button {
+  display: inline; }
+
+button.accordion-2 {
+  border: none;
+  background-color: #ebebeb; }
+
+.accordion-2::after {
+  font-family: "Font Awesome 5 Free";
+  font-weight: 700;
+  content: '\f056';
+  color: #daa253;
+  font-size: 0.9rem;
+  padding-left: 5px; }
+
+.accordion-2.is-closed::after {
+  content: '\f055'; }
+
+.accordion-content-2 {
+  color: black;
+  padding: 0px;
+  max-height: 255px;
   overflow: hidden;
   transition-property: max-height, color;
   transition-duration: 0.5s, 1s;
