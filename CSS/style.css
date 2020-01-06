@@ -71,6 +71,12 @@ h4 {
 #pointsdevente i {
   font-size: 2.5rem; }
 
+#contact .cap {
+  color: #DD8100; }
+
+#reservationSpec span {
+  font-weight: 600; }
+
 .navbar__logo {
   height: 200px;
   box-shadow: 1px 1px 3px; }
@@ -95,6 +101,24 @@ h4 {
 .nav-link {
   color: white; }
 
+.btn-div {
+  position: absolute;
+  top: 0px;
+  right: 200px;
+  margin-top: 2px; }
+
+#phone-num {
+  float: left;
+  margin-right: 2px;
+  border: 2px solid #847765; }
+
+#resa {
+  float: left;
+  border: 2px solid #847765; }
+
+#contactLoad {
+  display: none; }
+
 *,
 *::before,
 *::after {
@@ -108,14 +132,14 @@ body {
 main {
   background-color: white; }
 
+html {
+  scroll-behavior: smooth; }
+
 .footer {
   background-color: #847765;
   font-size: 0.8rem;
   line-height: 100%;
   color: #F7F3F3; }
-  .footer__title {
-    text-transform: uppercase;
-    font-size: 1.0rem; }
   .footer__link {
     font-size: 0.7rem;
     font-weight: 300; }
@@ -131,6 +155,9 @@ main {
       font-style: normal; }
     .footer__developer--year {
       font-style: normal; }
+
+.footer img {
+  width: 350px; }
 
 .intro__img img {
   max-width: 100%;
@@ -161,6 +188,43 @@ main {
       font-size: 1.6rem;
       font-weight: 300; }
 
+/* up arrow for back to top */
+#back-to-top i {
+  border: solid #EDEAE5;
+  border-width: 0 3px 3px 0;
+  display: inline-block;
+  padding: 7px; }
+
+.up {
+  transform: rotate(-135deg);
+  -webkit-transform: rotate(-135deg); }
+
+/* up arrow for back to top end */
+/* Scroll to top button */
+#back-to-top {
+  background-color: #DD8100;
+  color: #EDEAE5;
+  opacity: 0;
+  transition: opacity .6s ease-in-out;
+  z-index: 999;
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 50px;
+  height: 50px;
+  box-sizing: border-box;
+  border-radius: 50%; }
+
+a#back-to-top {
+  text-align: center;
+  line-height: 0.5;
+  padding-left: 1px;
+  padding-top: 20px; }
+
+#back-to-top.show {
+  opacity: 0.8; }
+
+/* Scroll to top button end */
 .carousel-item {
   height: 450px; }
 
@@ -192,6 +256,19 @@ main {
 #pointsdevente iframe {
   height: 100%; }
 
+#contact select {
+  background-color: #ebebeb;
+  border: 2px solid #DD8100; }
+
+#contact button {
+  background-color: #ebebeb;
+  border: 2px solid #DD8100; }
+
+#reservationSpec,
+#numberLabel,
+#numberInput {
+  display: none; }
+
 button.accordion {
   border: none;
   background-color: #ebebeb; }
@@ -204,8 +281,14 @@ button.accordion {
   font-size: 0.9rem;
   padding-left: 5px; }
 
+#accordion-arrows::after {
+  content: '\f13a'; }
+
 .accordion.is-open::after {
   content: '\f056'; }
+
+#accordion-arrows.is-open::after {
+  content: '\f139'; }
 
 .accordion-content {
   color: transparent;
@@ -227,13 +310,13 @@ button.accordion-2 {
 .accordion-2::after {
   font-family: "Font Awesome 5 Free";
   font-weight: 700;
-  content: '\f056';
+  content: '\f139';
   color: #daa253;
   font-size: 0.9rem;
   padding-left: 5px; }
 
 .accordion-2.is-closed::after {
-  content: '\f055'; }
+  content: '\f13a'; }
 
 .accordion-content-2 {
   color: black;

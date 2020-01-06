@@ -78,7 +78,7 @@
                                 <div class="col-12 px-4">
                                     <p>
                                         Parce qu'elles s'inscrivent dans une réalité socio-économique, nous préférons utiliser pour les céréales le qualificatif de 
-                                        "paysannes" (ou "blés de pays" par exemple) plutôt que "d'anciennes" qui tient plus du folklore et d'un passé mythifié. 
+                                        "paysannes" (ou "blés de pays" par exemple) plutôt que "d'anciennes". 
                                     </p>
                                     <p>
                                         Nous panifions au levain naturel sans adjuvant ni ajout de levure (à l'exception des viennoiseries et des baguettes) avec 
@@ -87,7 +87,7 @@
                                     <p>
                                         Nous travaillons sur le principe de longue fermentation (minimum 20h) qui laisse ainsi aux bactéries lactiques et acétiques 
                                         le temps de réaliser une "prédigestion" du gluten efficace mais aussi de développer les nutriments et les arômes qui rendent 
-                                        le pain, bon et nourrissant.
+                                        le pain bon et nourrissant.
                                     </p>
                                 </div>
                             </div>

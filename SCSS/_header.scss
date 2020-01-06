@@ -28,3 +28,23 @@
     color: white;
 }
 
+.btn-div {
+    position: absolute;
+    top: 0px;
+    right: 200px;
+    margin-top: 2px;
+}
+
+#phone-num {
+    float:left;  
+    margin-right: 2px;  
+    border: 2px solid $brown;
+}
+#resa {
+    float:left;
+    border: 2px solid $brown;
+}
+
+#contactLoad {
+    display:none;
+}

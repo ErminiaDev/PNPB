@@ -41,9 +41,22 @@
 </head>
 <body>
 
-    <header class="header">
+    <!-- Back to top button -->
+    <div id="top"></div> 
+        <a href="#top" id="back-to-top" style="display: inline;">
+        <div>
+            <i class="up"></i>
+        </div>
+        </a>
+
+    <!-- header -->
+    <header id="header">
         <div class="header__logo-box">
-            
+        </div>
+        <div id="contactLoad"></div>
+        <div class="btn-div">
+            <button id="phone-num" class="btn"><i class="fas fa-phone-alt mr-2"></i>06.XX.XX.XX.XX</button>
+            <a id="resaLink" href="contact.php#contact"><button id="resa" class="btn">Réservation</button></a>
         </div>
         <div class="header__info-box">
             <div class="header__info-box--1"></div>
@@ -51,7 +64,7 @@
         </div>
         <nav class="navbar navbar-expand-md py-3" id="mainNavbar">
         <div class="container">
-            <a class="navbar-brand" href="https://painnoir-painblanc.fr"><img class="navbar__logo" src="LOGO/pnpb.png" alt="logo Pain noir-Pain blanc"></a>
+            <a class="navbar-brand" href="https://painnoir-painblanc.fr"><img class="navbar__logo" src="LOGO/pnpb.jpg" alt="logo Pain noir-Pain blanc"></a>
             <button class="navbar-toggler ml-auto" data-toggle="collapse" data-target="#navLinks"  aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
             </button>

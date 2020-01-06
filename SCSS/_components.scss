@@ -18,6 +18,48 @@
     }
 }
 
+/* up arrow for back to top */
+#back-to-top i {
+border: solid #EDEAE5;
+border-width: 0 3px 3px 0;
+display: inline-block;
+padding: 7px;
+}
+
+.up {
+transform: rotate(-135deg);
+-webkit-transform: rotate(-135deg);
+}
+/* up arrow for back to top end */
+
+/* Scroll to top button */
+#back-to-top {
+background-color: $orange;
+color: #EDEAE5;
+opacity: 0;
+transition: opacity .6s ease-in-out;
+z-index: 999;
+position: fixed;
+right: 20px;
+bottom: 20px;
+width: 50px;
+height: 50px;
+box-sizing: border-box;
+border-radius: 50%;
+}
+
+a#back-to-top {
+text-align: center;
+line-height: 0.5;
+padding-left: 1px;
+padding-top: 20px;
+}
+
+#back-to-top.show {
+    opacity: 0.8;
+}
+/* Scroll to top button end */
+
 // Carousel for main page
 
 .carousel-item {
@@ -56,4 +98,20 @@ background-position: center;
 
 #pointsdevente iframe {
     height: 100%;
+}
+
+#contact select {
+    background-color: $gray;
+    border: 2px solid $orange;
+}
+
+#contact button {
+    background-color: $gray;
+    border: 2px solid $orange;
+}
+
+#reservationSpec,
+#numberLabel,
+#numberInput {
+    display: none;
 }

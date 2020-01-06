@@ -20,10 +20,9 @@ document.querySelectorAll('.accordion').forEach(item => {
 
             content.style.maxHeight = content.scrollHeight + "px";
             content.style.color = 'black';
-            button.style.content = 'f056'
         }
-    })
-})
+    });
+});
 
 document.querySelectorAll('.accordion-2').forEach(item => {
     item.addEventListener('click', event => {
@@ -35,17 +34,15 @@ document.querySelectorAll('.accordion-2').forEach(item => {
 
         console.log(button);
 
-        if (content.style.maxHeight === 255 + "px") {
+        if (content.style.maxHeight === 0 + "px") {
+            console.log("accordion was closed");
+            content.style.maxHeight = content.scrollHeight + "px";
+            content.style.color = 'black';
+
+        } else {
             console.log("accordion was open");
             content.style.maxHeight = 0 + "px";
             content.style.color = 'transparent';
-
-
-        } else {
-            console.log("accordion was closed");
-            content.style.maxHeight = 255 + "px";
-            content.style.color = 'black';
-            button.style.content = 'f056'
         }
-    })
-})
+    });
+});

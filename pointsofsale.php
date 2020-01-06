@@ -34,7 +34,7 @@
                                 </div>
                             </div>
                             <div class="accordion-wrapper">
-                                <h3 class="text-center py-5">Sur les marchés<button class="accordion">
+                                <h3 class="text-center py-5">Sur les marchés<button id="accordion-arrows" class="accordion">
                                 </button></h3>
                                 <div class="row accordion-content">
                                     <div class="col-10 mx-auto">
@@ -48,7 +48,7 @@
                                 </div>
                             </div>
                             <div class="accordion-wrapper">
-                                <h3 class="text-center py-5">En dépot dans les magasins d'agriculture biologique<button class="accordion">
+                                <h3 class="text-center py-5">En dépot dans les magasins d'agriculture biologique<button id="accordion-arrows" class="accordion">
                                 </button></h3>
                                 <div class="row accordion-content">
                                     <div class="col-10 mx-auto">
@@ -70,7 +70,7 @@
                                 </div>
                             </div>
                             <div class="accordion-wrapper">
-                                <h3 class="text-center py-5">En entreprise et en collectivités<button class="accordion">
+                                <h3 class="text-center py-5">En entreprise et en collectivités<button id="accordion-arrows" class="accordion">
                                 </button></h3>
                                 <div class="row accordion-content">
                                     <div class="col-8 mx-auto text-center">

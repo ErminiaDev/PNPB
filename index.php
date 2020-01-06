@@ -51,7 +51,7 @@
                         <p class="py-5 mb-0 text-justify">
                             La boulangerie <span>Pain noir - Pain blanc</span> fabrique des pains et des viennoiseries au levain avec des farines issues de l'agriculture paysanne
                             et biologique. La vente est proposée à Schiltigheim dans la boutique du fournil, mais aussi sur les marchés de l'Eurométropole ainsi qu'en
-                            dépôt dans les magasins d'alimentation biologique autour de Strasbourg. Un service de vente en entreprise et en collectivité est également
+                            dépôt dans les magasins d'alimentation biologique autour de Strasbourg. Un service de vente en entreprises et en collectivités est également
                             prévu.
                         </p>
                         <div class="row  px-2 intro__img">

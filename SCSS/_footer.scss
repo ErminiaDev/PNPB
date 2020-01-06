@@ -4,11 +4,6 @@
     line-height: 100%;
     color: $light-gray;
 
-    &__title {
-        text-transform: uppercase;
-        font-size: 1.0rem;
-    }
-
     &__link {
         font-size: 0.7rem;
         font-weight: 300;
@@ -33,4 +28,8 @@
             font-style: normal;
         }
     }
+}
+
+.footer img {
+    width: 350px;
 }
