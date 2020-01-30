@@ -25,7 +25,7 @@
 
                                 <!-- DROPDOWN BUTTON SOLUTION -->
 
-                                <div class="dropdown pb-3 py-2 text-black">
+                                <!-- <div class="dropdown pb-3 py-2 text-black">
                                     <label for="dropdownMenu1" class="mb-1 py-2 d-block"><span class="cap">O</span>bjet</label>
                                     <button class="ml-2 btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                                        -- spécifier l'objet --
@@ -34,15 +34,19 @@
                                         <button type="button" id="firstContact" name="contact" class="dropdown-item py-2" href="#firstContact">Prise de contact</button>
                                         <button type="button" id="reservation" name="reservation" class="dropdown-item py-2" href="#reservation">Réservation</button>
                                     </div>
-                                </div>
+                                </div> -->
 
                                 <!-- RADIO BUTTON SOLUTION                 -->
 
-                                <!-- <label for="firstcontact" class="mb-1 py-2">Prise de Contact</label>
-                                <input type="radio" id="firstContact" value="contact" name="typeOfContact" class="dropdown-item py-2" href="#firstContact">
-                                <label for="reservation" class="mb-1 py-2">Réservation</label>
-                                <input type="radio" id="reservation" value="reservation" name="typeOfContact" class="dropdown-item py-2" href="#reservation"> -->
-
+                                <div class="d-block">
+                                    <label for="firstcontact" class="mb-1 py-2">Prise de Contact</label>
+                                    <input type="radio" id="firstContact" value="contact" name="typeOfContact" class="ml-2" href="#firstContact">
+                                </div>
+                                <div class="d-block">
+                                    <label for="reservation" class="mb-1 py-2">Réservation</label>
+                                    <input type="radio" id="reservation" value="reservation" name="typeOfContact" class=" ml-2" href="#reservation">
+                                </div>
+                                
                                 <!-- DROPDOWN <a> SOLUTION -->
 
                                 <!-- <div class="pb-2 dropdown py-2">
@@ -76,7 +80,7 @@
                                 <textarea name="message" class="ml-2 form-control text-muted" cols="30" rows="6" placeholder="Message"></textarea>
 
                                 <label for="submit" class="mt-2"></label>
-                                <input type="submit" name="submit" value="Envoyer un email!"class="ml-1 my-4 btn btn-warning">
+                                <input type="submit" name="submit" value="Envoyer un email!"class="ml-1 my-4 btn btn-submit">
                             </form>
                         </div>
                     </div>

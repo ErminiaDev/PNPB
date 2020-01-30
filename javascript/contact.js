@@ -1,12 +1,12 @@
-var selected = document.querySelectorAll(".dropdown-item");
-var dropdownTitle = document.querySelector("#dropdownMenuButton");
+// var selected = document.querySelectorAll(".dropdown-item");
+// var dropdownTitle = document.querySelector("#dropdownMenuButton");
 
-selected.forEach(item => {
-    item.addEventListener('click', event => {
-        dropdownTitle.innerText = item.innerText;
-        dropdownTitle.value = item.innerText;
-    });
-});
+// selected.forEach(item => {
+//     item.addEventListener('click', event => {
+//         dropdownTitle.innerText = item.innerText;
+//         dropdownTitle.value = item.innerText;
+//     });
+// });
 
 
 var reservationSpec = document.querySelector('#reservationSpec');

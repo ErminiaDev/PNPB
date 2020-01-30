@@ -3,12 +3,13 @@
     object-fit: cover;
 }
 
-.jumbo-image {
-    height: 450px;
-    background: url("../images/img-5.jpg");
+.jumbo-image-1 {
+    height: 500px;
+    background: url("../images/VF/LA_PREPARATION-1.jpg");
     background-size: cover;
     background-position: center;
-}
+} 
+
 
 #engagements {
     & .img-2 {
@@ -20,5 +21,4 @@
     }
 }
 
-// GALLERY
 

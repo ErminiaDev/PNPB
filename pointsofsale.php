@@ -3,7 +3,7 @@
 
 <main>
 
-    <section class="jumbo-image"></section>
+    <section class="jumbo-image-3"></section>
 
     <section id="pointsdevente">
         <div class="container">
@@ -33,12 +33,12 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="accordion-wrapper">
-                                <h3 class="text-center py-5">Sur les marchés<button id="accordion-arrows" class="accordion">
+                            <div class="accordion-wrapper-2">
+                                <h3 class="text-center py-5">Sur les marchés<button class="accordion-2">
                                 </button></h3>
-                                <div class="row accordion-content">
+                                <div class="row accordion-content-2">
                                     <div class="col-10 mx-auto">
-                                        <img src="images/img10.jpg" alt="" class="img-fluid pb-4">
+                                        <img src="images/VF/MARCHE-min.jpg" alt="" class="img-fluid pb-4">
                                         <p class="text-center"><span class="medium">Sainte Marguerite</span> - mercredi de 7h à 13h</p>
                                         <p class="text-center"><span class="medium">Schiltigheim</span> - jeudi de 7h à 13h</p>
                                         <p class="text-center"><span class="medium">Bischheim</span> - vendredi de 7h à 13h</p>
@@ -47,10 +47,10 @@
                                 
                                 </div>
                             </div>
-                            <div class="accordion-wrapper">
-                                <h3 class="text-center py-5">En dépot dans les magasins d'agriculture biologique<button id="accordion-arrows" class="accordion">
+                            <div class="accordion-wrapper-2">
+                                <h3 class="text-center py-5">En dépot dans les magasins d'agriculture biologique<button class="accordion-2">
                                 </button></h3>
-                                <div class="row accordion-content">
+                                <div class="row accordion-content-2">
                                     <div class="col-10 mx-auto">
                                         <div class="row">
                                             <div class="col-4 text-center">

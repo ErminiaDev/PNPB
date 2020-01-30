@@ -3,7 +3,7 @@
 
 <main>
 
-    <section class="jumbo-image"></section>
+    <section class="jumbo-image-1"></section>
 
     <section id="engagements">
         <div class="container">
@@ -21,13 +21,13 @@
                                     Le fonctionnement de Pain noir - Pain blanc repose sur <span class="highlight">2 idées fondamentales</span> :
                                 </p>
                             </div>
-                            <div class="row pt-5 pb-5 px-3">
+                            <div class="row pt-5 pb-5 px-2">
                                 <div class="col-6">
-                                    <img src="images/img-7.jpg" alt="" class="img-fluid">
+                                    <img src="images/VF/actions-1.jpg" alt="" class="img-fluid">
                                 </div>
                                 <div class="col-6 text-right">
                                     <p class="text__part-1 py-3">
-                                        L'humain.e au coeur du processus de production : ce sont les femmes et les hommes qui produisent le pain qui font aussi sa qualité.
+                                        L'humain au coeur du processus de production : ce sont les femmes et les hommes qui produisent le pain qui font aussi sa qualité.
                                     </p>
                                     <button class="accordion">
                                         En savoir
@@ -37,19 +37,30 @@
                             <div class="row text-justify accordion-content" >
                                 <div class="col-12 px-4">
                                     <p>
-                                        D'abord dans les champs où les paysanne.s sélectionnent et cultivent des mélanges de céréales ("blés populations") 
+                                        D'abord dans les champs où les paysans sélectionnent et cultivent des mélanges de céréales ("blés populations") 
                                         ou des variétés adaptées à un terrain, sans pesticides, sans fongicides ni engrais de synthèse. 
                                     </p>
                                     <p>
-                                        Puis dans les moulins, de petite taille, ou les meunier.es décident des meilleurs outils d'écrasement du grain pour 
+                                        Puis dans les moulins, de petite taille, ou les meuniers décident des meilleurs outils d'écrasement du grain pour 
                                         lui permettre de conserver un maximum de valeurs nutrionnelles.
                                     </p>
                                     <p>
-                                        Enfin dans le fournil où les boulanger.es produisent dans le respect de la fermentation longue des pains de garde au 
+                                        Enfin dans le fournil où les boulangers produisent dans le respect de la fermentation longue des pains de garde au 
                                         levain naturel de grande qualité. Tout ceci n'est possible que grâce à une chose : ces productrices et producteurs 
                                         sont celles et ceux qui décident en toute autonomie de leur manière de travailler.
                                     </p>
                                 </div>
+                            </div>
+                        </div>
+                        <div class="row px-3 py-4 intro__img">
+                            <div class="col-4 px-1">
+                                <img src="images/VF/MAIN_FARINE-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-4 px-1">
+                                <img src="images/VF/LA_PATE-1.jpg" class="img-fluid" alt="">
+                            </div>
+                            <div class="col-4 px-1">
+                                <img src="images/VF/TOUR_DE_PATE-1.jpg" class="img-fluid" alt="">
                             </div>
                         </div>
                         <div class="accordion-wrapper mt-4">
@@ -66,7 +77,7 @@
                                 <div class="col-4">
                                     <div class="row">
                                         <div class="col-12 py-2 d-flex justify-content-center">
-                                            <img src="images/img-8.png" alt="" class="img-2 img-fluid">     
+                                            <img src="LOGO/AB.png" alt="" class="img-2 img-fluid">     
                                         </div>
                                         <div class="col-12 py-2 d-flex justify-content-center">
                                             <img src="images/img-9.jpg" alt="" class="img-3 img-fluid">

@@ -12,7 +12,7 @@ a:hover {
 
 h3 {
   font-size: 1.3rem;
-  color: #DD8100; }
+  color: #ce902d; }
 
 h4 {
   font-size: 1.0rem; }
@@ -20,11 +20,11 @@ h4 {
 .intro {
   line-height: 140%; }
   .intro span {
-    color: #DD8100;
+    color: #ce902d;
     font-weight: 500; }
 
 .highlight {
-  color: #DD8100;
+  color: #ce902d;
   font-weight: 600; }
 
 .text__part-1, .text__part-2 {
@@ -37,23 +37,23 @@ h4 {
   font-weight: 500; }
 
 #engagements .accordion {
-  color: #DD8100; }
+  color: #ce902d; }
 
 #engagements .accordion-content {
   line-height: 140%; }
 
 #engagements .details__title {
-  color: #DD8100;
+  color: #ce902d;
   font-size: 1.1rem; }
 
 #engagements .details {
   line-height: 140%; }
 
 #produits h3 {
-  color: #DD8100; }
+  color: #ce902d; }
 
 #produits h4 {
-  color: #DD8100;
+  color: #ce902d;
   font-weight: 300; }
 
 #produits .items p {
@@ -62,7 +62,7 @@ h4 {
   font-weight: 300; }
 
 #produits h5 {
-  color: #DD8100;
+  color: #ce902d;
   font-size: 1.2rem; }
 
 .medium {
@@ -72,7 +72,7 @@ h4 {
   font-size: 2.5rem; }
 
 #contact .cap {
-  color: #DD8100; }
+  color: #ce902d; }
 
 #reservationSpec span {
   font-weight: 600; }
@@ -91,9 +91,12 @@ h4 {
   height: 100px;
   background-color: #ebebeb; }
 
+.header__info-box img {
+  height: 35px; }
+
 #mainNavbar {
   height: 100px;
-  background-color: #847765;
+  background-color: #7d352e;
   font-size: 1.1rem;
   font-weight: 300;
   text-shadow: 0 0 0.5px; }
@@ -110,11 +113,11 @@ h4 {
 #phone-num {
   float: left;
   margin-right: 2px;
-  border: 2px solid #847765; }
+  border: 2px solid #7d352e; }
 
 #resa {
   float: left;
-  border: 2px solid #847765; }
+  border: 2px solid #7d352e; }
 
 #contactLoad {
   display: none; }
@@ -136,7 +139,7 @@ html {
   scroll-behavior: smooth; }
 
 .footer {
-  background-color: #847765;
+  background-color: #7d352e;
   font-size: 0.8rem;
   line-height: 100%;
   color: #F7F3F3; }
@@ -163,9 +166,9 @@ html {
   max-width: 100%;
   object-fit: cover; }
 
-.jumbo-image {
-  height: 450px;
-  background: url("../images/img-5.jpg");
+.jumbo-image-1 {
+  height: 500px;
+  background: url("../images/VF/LA_PREPARATION-1.jpg");
   background-size: cover;
   background-position: center; }
 
@@ -181,7 +184,7 @@ html {
     width: 500px;
     height: 100px;
     clip-path: polygon(0 0, 50% 100%, 100% 0);
-    background-color: #847765;
+    background-color: #7d352e;
     color: #F7F3F3;
     font-size: 0.9rem; }
     .body__heading h2 {
@@ -202,7 +205,7 @@ html {
 /* up arrow for back to top end */
 /* Scroll to top button */
 #back-to-top {
-  background-color: #DD8100;
+  background-color: #ce902d;
   color: #EDEAE5;
   opacity: 0;
   transition: opacity .6s ease-in-out;
@@ -247,8 +250,8 @@ a#back-to-top {
   width: 60px;
   height: 30px;
   clip-path: polygon(0 0, 0 100%, 90% 50%);
-  background-color: #DD8100;
-  color: #DD8100; }
+  background-color: #ce902d;
+  color: #ce902d; }
 
 .details {
   background-color: white; }
@@ -258,16 +261,19 @@ a#back-to-top {
 
 #contact select {
   background-color: #ebebeb;
-  border: 2px solid #DD8100; }
+  border: 2px solid #ce902d; }
 
 #contact button {
   background-color: #ebebeb;
-  border: 2px solid #DD8100; }
+  border: 2px solid #ce902d; }
 
 #reservationSpec,
 #numberLabel,
 #numberInput {
   display: none; }
+
+.btn-submit {
+  background-color: #ce902d; }
 
 button.accordion {
   border: none;
@@ -277,7 +283,7 @@ button.accordion {
   font-family: "Font Awesome 5 Free";
   font-weight: 700;
   content: '\f055';
-  color: #daa253;
+  color: #f2af4b;
   font-size: 0.9rem;
   padding-left: 5px; }
 
@@ -311,7 +317,7 @@ button.accordion-2 {
   font-family: "Font Awesome 5 Free";
   font-weight: 700;
   content: '\f139';
-  color: #daa253;
+  color: #f2af4b;
   font-size: 0.9rem;
   padding-left: 5px; }
 

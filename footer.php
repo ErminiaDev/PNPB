@@ -1,14 +1,22 @@
 <footer class="footer py-5">
         <div class="container">
-        <div class="text-center">
-            <img src="LOGO/pnpb-titre.png" alt="Pain noir - Pain blanc" class="img-fluid pb-3">
-            <p class="footer__address">17 rue de Lauterbourg - <span class="footer__address--city">Schiltigheim</span></p>
-            <p class="footer__phone">0X.XX.XX.XX.XX</p>
-            <p class="footer__link--social"><i class="fab fa-instagram pr-2"></i><i class="fab fa-facebook-square pl-2"></i></p>
-            <p class="footer__link pt-2 mb-1"><a href="impressum.php">Mentions légales</a></p>
-            <p class="footer__link"><a href="credits.php">Crédits</a></p>
-            <p class="footer__developer pt-3 m-0">site créé par&nbsp;&nbsp;<a href="https://erminiadev.com" target="_blank"><span class="footer__developer--name">Erminia Dev&nbsp;</span></a>&copy; <span class="footer__developer--year"></span></p>
-        </div>
+            <div class="row">
+                <div class="col-6 py-5 text-right">
+                    <img src="LOGO/ecriture.jpg" alt="">
+                </div>
+                <div class="col-6">
+                    <div class="text-left pl-4">
+                        <img src="LOGO/pnpb-titre.png" alt="Pain noir - Pain blanc" class="img-fluid pb-3">
+                        <p class="footer__address">17 rue de Lauterbourg - <span class="footer__address--city">Schiltigheim</span></p>
+                        <p class="footer__phone">03.67.98.55.15</p>
+                        <p class="footer__phone">06.10.80.98.21</p>
+                        <p class="footer__link--social"><i class="fab fa-instagram pr-2"></i><i class="fab fa-facebook-square pl-2"></i></p>
+                        <p class="footer__link pt-2 mb-1"><a href="impressum.php">Mentions légales</a></p>
+                        <p class="footer__link"><a href="credits.php">Crédits</a></p>
+                        <p class="footer__developer pt-3 m-0">site créé par&nbsp;&nbsp;<a href="https://erminiadev.com" target="_blank"><span class="footer__developer--name">Erminia Dev&nbsp;</span></a>&copy; <span class="footer__developer--year"></span></p>
+                    </div>
+                </div>
+            </div>
         </div>
     </footer>
 

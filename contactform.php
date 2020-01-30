@@ -1,18 +1,15 @@
 <?php
-var_dump(isset($_POST['contact']));
-var_dump(isset($_POST['reservation']));
-var_dump(isset($_POST['submit']));
 
-   if (isset($_POST['contact']))
+   if ((isset($_POST['typeOfContact'])) && $_POST['typeOfContact'] === 'contact')
    {
         if(isset($_POST['submit']))
         {
-            $name = $_POST['name'];
+            $name = $_POST['fullName'];
             $mailFrom = $_POST['mail'];
-            $subject = $_POST['subject'];
+            $subject = $_POST['typeOfContact'];
             $message = $_POST['message'];
 
-            $mailTo = "contact@erminiadev.com";
+            $mailTo = "braillyvincent@gmail.com";
             $headers = "From: ".$mailFrom;
             $txt = "Vous avez reçu une demande de prise de contact de " . $name . ".\n\n" . $message;;
 
@@ -20,18 +17,18 @@ var_dump(isset($_POST['submit']));
             $result = $result ? 'true' : 'false'; 
             header("Location: contact.php?mailsend=".$result);
         };
-   } elseif (isset($_POST['reservation'])) {
+   } elseif ((isset($_POST['typeOfContact'])) && $_POST['typeOfContact'] === 'reservation') {
 
         if(isset($_POST['submit']))
         {
             
-            $name = $_POST['name'];
+            $name = $_POST['fullName'];
             $mailFrom = $_POST['mail'];
-            $subject = $_POST['subject'];
+            $subject = $_POST['typeOfContact'];
             $message = $_POST['message'];
-            $tel = $_POST['telephone'];
+            $tel = $_POST['tel'];
 
-            $mailTo = "melmexus@gmail.com";
+            $mailTo = "bass.adrien@gmail.com";
             $headers = "From: ".$mailFrom;
             $txt = "Vous avez reçu une demande de réservation de " . $name . ".\n\n" . "Numéro de téléphone: " . $tel . ".\n\n" . $message;;
 

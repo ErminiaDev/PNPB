@@ -56,13 +56,13 @@
                         </p>
                         <div class="row  px-2 intro__img">
                             <div class="col-4 px-1">
-                                <img src="https://images.unsplash.com/photo-1550599112-0c21a831f6b9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="">
+                                <img src="images/VF/LE_MAGASIN_1-1.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="col-4 px-1">
-                                <img src="images/cropped/img-2.jpg" class="img-fluid" alt="">
+                                <img src="images/VF/LE_MAGASIN_2-1.jpg" class="img-fluid" alt="">
                             </div>
                             <div class="col-4 px-1">
-                                 <img src="https://images.unsplash.com/photo-1545283425-f5cb1ca33cd6?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=500&q=60" class="img-fluid" alt="">
+                                 <img src="images/VF/LE_MAGASIN_3-1.jpg" class="img-fluid" alt="">
                              </div>
                         </div>
                         <p class="py-5 text-justify">
