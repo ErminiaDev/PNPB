@@ -21,9 +21,12 @@
 }
 
 
+
 #mainNavbar {
+    z-index: 2;
     height: 100px;
     background-color: $brown;
+    opacity: 0.9;
     font-size: 1.1rem;
     font-weight: 300;
     text-shadow: 0 0 0.5px;
@@ -52,4 +55,37 @@
 
 #contactLoad {
     display:none;
+}
+
+@media (max-width:768px) {
+    .navbar__logo{
+        height: 80px;
+    }
+
+    #mainNavbar {
+        height: auto;
+        width: 100%;
+        // position: fixed;
+    }
+
+    #mainNavbar .title-div {
+        padding: 15px 0;
+    }
+
+    #mainNavbar .title1 {
+        width: 150px;
+    }
+    
+    #mainNavbar .title2 {
+        width: 165px;
+    }
+
+    .header__info-box {
+        display:none;
+    }
+
+    #header .btn-div {
+        display:none;
+    }
+
 }

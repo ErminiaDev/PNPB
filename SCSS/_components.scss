@@ -4,7 +4,7 @@
     background-color: $gray;
 
     &__heading {
-        width: 500px;
+        width: auto;
         height:100px;
         clip-path: polygon(0 0, 50% 100%, 100% 0);
         background-color: $brown;
@@ -118,4 +118,11 @@ background-position: center;
 
 .btn-submit {
     background-color: $orange;
+}
+
+@media (max-width:768px) {
+    #accueil {
+        position: relative;
+        // padding-top: 122px;
+    }
 }

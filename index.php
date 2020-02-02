@@ -47,7 +47,7 @@
                             <h2>La boulangerie</h2>
                         </div>
                     </div>
-                    <div class="intro px-5">
+                    <div class="intro px-4 px-md-5">
                         <p class="py-5 mb-0 text-justify">
                             La boulangerie <span>Pain noir - Pain blanc</span> fabrique des pains et des viennoiseries au levain avec des farines issues de l'agriculture paysanne
                             et biologique. La vente est proposée à Schiltigheim dans la boutique du fournil, mais aussi sur les marchés de l'Eurométropole ainsi qu'en
@@ -55,13 +55,13 @@
                             prévu.
                         </p>
                         <div class="row  px-2 intro__img">
-                            <div class="col-4 px-1">
+                            <div class="col-12 col-md-4 px-1 py-2 py-md-0">
                                 <img src="images/VF/LE_MAGASIN_1-1.jpg" class="img-fluid" alt="">
                             </div>
-                            <div class="col-4 px-1">
+                            <div class="col-12 col-md-4 px-1 py-2 py-md-0">
                                 <img src="images/VF/LE_MAGASIN_2-1.jpg" class="img-fluid" alt="">
                             </div>
-                            <div class="col-4 px-1">
+                            <div class="col-12 col-md-4 px-1 py-2 py-md-0">
                                  <img src="images/VF/LE_MAGASIN_3-1.jpg" class="img-fluid" alt="">
                              </div>
                         </div>
