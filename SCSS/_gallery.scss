@@ -1,6 +1,7 @@
 #index-gallery .gallery-img {
-    width: 100%;
-    height: 160px;
+    width:100%;
+    height: 0;
+    padding-bottom: 100%;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -9,46 +10,93 @@
 }
 
 #index-gallery .img1 {
-    background-image: url("../images/thumbs/img1.jpg")
+    
+    background-image: url("../images/PRODUITS/thumbs/img1.jpg")
 }
 
 #index-gallery .img2 {
-    background-image: url("../images/thumbs/img2.jpg")
+    background-image: url("../images/PRODUITS/thumbs/img2.jpg")
 }
 
 #index-gallery .img3 {
-    background-image: url("../images/thumbs/img3.jpg")
+    background-image: url("../images/PRODUITS/thumbs/img3.jpg")
 }
 
 #index-gallery .img4 {
-    background-image: url("../images/thumbs/img4.jpg")
+    background-image: url("../images/PRODUITS/thumbs/img4.jpg")
 }
 
 #index-gallery .img5 {
-    background-image: url("../images/thumbs/img5.jpg")
+    background-image: url("../images/PRODUITS/thumbs/img5.jpg")
 }
 
 #index-gallery .img6 {
-    background-image: url("../images/thumbs/img6.jpg")
+    background-image: url("../images/PRODUITS/thumbs/img6.jpg")
 }
 
 #index-gallery .img7 {
-    background-image: url("../images/thumbs/img7.jpg")
+    background-image: url("../images/PRODUITS/thumbs/img7.jpg")
 }
 
 #index-gallery .img8 {
-    background-image: url("../images/thumbs/img8.jpg")
+    background-image: url("../images/PRODUITS/thumbs/img8.jpg")
 }
 
 #index-gallery .img9 {
-    background-image: url("../images/thumbs/img9.jpg")
+    background-image: url("../images/PRODUITS/thumbs/img9.jpg")
+}
+
+#index-gallery .img10 {
+    background-image: url("../images/PRODUITS/thumbs/img10.jpg")
+}
+
+#index-gallery .img11 {
+    background-image: url("../images/PRODUITS/thumbs/img11.jpg")
+}
+
+#index-gallery .img12 {
+    background-image: url("../images/PRODUITS/thumbs/img12.jpg")
+}
+
+#index-gallery .img13 {
+    background-image: url("../images/PRODUITS/thumbs/img13.jpg")
+}
+
+#index-gallery .img14 {
+    background-image: url("../images/PRODUITS/thumbs/img14.jpg")
+}
+
+#index-gallery .img15{
+    background-image: url("../images/PRODUITS/thumbs/img15.jpg")
+}
+
+#index-gallery .img16 {
+    background-image: url("../images/PRODUITS/thumbs/img16.jpg")
+}
+
+#index-gallery .img17 {
+    background-image: url("../images/PRODUITS/thumbs/img17.jpg")
+}
+
+#index-gallery .img18 {
+    background-image: url("../images/PRODUITS/thumbs/img18.jpg")
+}
+
+#index-gallery .img19 {
+    background-image: url("../images/PRODUITS/thumbs/img19.jpg")
+}
+
+#index-gallery .img20 {
+    background-image: url("../images/PRODUITS/thumbs/img20.jpg")
 }
 
 .gallery-img div {
-    width: 100%;
+    position: relative;
+    width:100%;
     height: 100%;
+    padding-bottom: 100%;
     background-color: white;
-    opacity: 0;
+    opacity: 0;  
 }
 
 .gallery-img div:hover {
@@ -60,7 +108,12 @@
 .gallery-img a {
     font-size: 1.2rem;
     color: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
 }
+
 
 // popup window when clicked
 
@@ -118,3 +171,8 @@
     color: rgba(255, 255, 255, 1);
 }
 
+@media (max-width:1089px) {
+    .img-window img {
+        max-width: 60vw;
+    }
+}

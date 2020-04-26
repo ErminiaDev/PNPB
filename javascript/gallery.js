@@ -18,7 +18,7 @@ if (galleryImages) {
             //we want to fetch one specific property inside of these computed styles
             let getFullImgUrl = getElementCss.getPropertyValue("background-image");
             //we want to split the given url to take out what is unnecessary
-            let getImgUrlPos = getFullImgUrl.split("/images/thumbs/");
+            let getImgUrlPos = getFullImgUrl.split("/images/PRODUITS/thumbs/");
             //we take out the )" out of the second item of the split array because it is unneccesary
             let SetNewImgUrl = getImgUrlPos[1].replace('")', '');
 
@@ -41,7 +41,7 @@ if (galleryImages) {
             //putting it inside the div we just created
             newImgWindow.appendChild(newImg);
             //setting a source attribute to the image and giving the right path
-            newImg.setAttribute("src", "images/" + SetNewImgUrl);
+            newImg.setAttribute("src", "images/PRODUITS/" + SetNewImgUrl);
             newImg.setAttribute("id", "current-img");
 
 
@@ -49,8 +49,8 @@ if (galleryImages) {
                 
                 //defining variables that will help place the button properly no matter what the width of the image is
                 let imgWidth = this.width;
-                let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
-
+                // let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
+                let imgToEdge = 10;
 
                 // creating a left navigation arrow
                 //creating an anchor tag
@@ -68,7 +68,7 @@ if (galleryImages) {
                 //making the a child of the body
                 container.appendChild(newPrevBtn);
                 //adding a property to CSS to place the button properly
-                newPrevBtn.style.cssText = "left: " + calcImgToEdge + "px";
+                newPrevBtn.style.cssText = "left: " + imgToEdge + "vw";
 
                 // creating a right navigation arrow
                 newNextBtn = document.createElement("a");
@@ -78,7 +78,7 @@ if (galleryImages) {
                 newNextBtn.setAttribute("onclick", "changeImg(1)");
                 newNextBtn.appendChild(NextBtnFa);
                 container.appendChild(newNextBtn);
-                newNextBtn.style.cssText = "right: " + calcImgToEdge + "px";
+                newNextBtn.style.cssText = "right: " + imgToEdge + "vw";
 
             }
                 
@@ -126,7 +126,7 @@ function changeImg(changeDir) {
     }
 
     //setting the right attributes to the new image
-    newImg.setAttribute("src", "images/img" + calcNewImg + ".jpg");
+    newImg.setAttribute("src", "images/PRODUITS/img" + calcNewImg + ".jpg");
     newImg.setAttribute("id", "current-img");
     console.log(newImg);
 
@@ -136,12 +136,14 @@ function changeImg(changeDir) {
     //copy-pasting previous code so that once the image loads the buttons are replaced properly with the new image's width
     newImg.onload = function(){
         let imgWidth = this.width;
-        let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
+        let imgToEdge = 10;
 
         let nextBtn = document.querySelector('.img-btn-next');
-        nextBtn.style.cssText = "right: " + calcImgToEdge + "px";
+        nextBtn.style.cssText = "right: " + calcImgToEdge + "vw";
 
         let prevBtn = document.querySelector('.img-btn-prev');
-        prevBtn.style.cssText = "left: " + calcImgToEdge + "px";
+        prevBtn.style.cssText = "left: " + calcImgToEdge + "vw";
     }
 }
+
+var galleryImageWidth = document.getElementsByClassName()

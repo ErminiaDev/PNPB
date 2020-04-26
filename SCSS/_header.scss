@@ -20,7 +20,10 @@
     height: 35px;
 }
 
-
+.row {
+    margin-right: 0;
+    margin-left: 0;
+}
 
 #mainNavbar {
     z-index: 2;
@@ -39,7 +42,7 @@
 .btn-div {
     position: absolute;
     top: 0px;
-    right: 200px;
+    right: 10vw;
     margin-top: 2px;
 }
 
@@ -56,6 +59,31 @@
 #contactLoad {
     display:none;
 }
+
+
+@media (max-width:1089px){
+    #header .container {
+        margin-right: 0;
+        margin-left: 0;
+        max-width: 100%;
+    }
+    #header .row {
+        width: 100%;
+    }
+
+    .btn-div {
+        right: 5vw;
+    }
+
+    #mainNavbar {
+        font-size: 0.8rem;
+    }
+
+    .navbar__logo{
+        height: 150px;
+    }
+}
+
 
 @media (max-width:768px) {
     .navbar__logo{
@@ -88,4 +116,14 @@
         display:none;
     }
 
+}
+
+@media (max-width:414px){
+    #mainNavbar .title1 {
+        width: 80px;
+    }
+    
+    #mainNavbar .title2 {
+        width: 88px;
+    }
 }

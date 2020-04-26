@@ -9,7 +9,7 @@
             $subject = $_POST['typeOfContact'];
             $message = $_POST['message'];
 
-            $mailTo = "braillyvincent@gmail.com";
+            $mailTo = "contact@painnoir-painblanc.fr";
             $headers = "From: ".$mailFrom;
             $txt = "Vous avez reçu une demande de prise de contact de " . $name . ".\n\n" . $message;;
 
@@ -28,7 +28,7 @@
             $message = $_POST['message'];
             $tel = $_POST['tel'];
 
-            $mailTo = "bass.adrien@gmail.com";
+            $mailTo = "contact@painnoir-painblanc.fr";
             $headers = "From: ".$mailFrom;
             $txt = "Vous avez reçu une demande de réservation de " . $name . ".\n\n" . "Numéro de téléphone: " . $tel . ".\n\n" . $message;;
 

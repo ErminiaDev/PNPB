@@ -3,29 +3,31 @@
 
 <main>
 
-    <section class="jumbo-image-1"></section>
+    <section id="jumbo-image-1">
+        <img class="d-block w-100 img-fluid" src="images/ENGAGEMENTS/IMG1.jpg" alt="Second slide">
+    </section>
 
     <section id="engagements">
         <div class="container">
             <div class="row">
-                <div class="body col-9 mx-auto">
+                <div class="body col-11 col-md-9 mx-auto">
                     <div class="body__heading mx-auto text-center">
                         <div class="body__heading--title pt-3">
                             <h2>Engagements</h2>
                         </div>
                     </div>
-                    <div class="px-5">
+                    <div class="px-md-5">
                         <div class="accordion-wrapper">
-                            <div class="row pt-5 d-flex justify-content-center intro">
+                            <div class="row pt-5 px-md-5 d-flex justify-content-center intro text-center text-md-left">
                                 <p>
                                     Le fonctionnement de Pain noir - Pain blanc repose sur <span class="highlight">2 idées fondamentales</span> :
                                 </p>
                             </div>
                             <div class="row pt-5 pb-5 px-2">
-                                <div class="col-6">
-                                    <img src="images/VF/actions-1.jpg" alt="" class="img-fluid">
+                                <div class="col-lg-6">
+                                    <img src="images/ENGAGEMENTS/IMG2.jpg" alt="" class="img-fluid">
                                 </div>
-                                <div class="col-6 text-right">
+                                <div class="col-lg-6 text-right">
                                     <p class="text__part-1 py-3">
                                         L'humain au coeur du processus de production : ce sont les femmes et les hommes qui produisent le pain qui font aussi sa qualité.
                                     </p>
@@ -45,7 +47,7 @@
                                         lui permettre de conserver un maximum de valeurs nutrionnelles.
                                     </p>
                                     <p>
-                                        Enfin dans le fournil où les boulangers produisent dans le respect de la fermentation longue des pains de garde au 
+                                        Enfin dans le fournil où les boulangers produisent dans le respect de la fermentation des pains de garde au 
                                         levain naturel de grande qualité. Tout ceci n'est possible que grâce à une chose : ces productrices et producteurs 
                                         sont celles et ceux qui décident en toute autonomie de leur manière de travailler.
                                     </p>
@@ -53,19 +55,19 @@
                             </div>
                         </div>
                         <div class="row px-3 py-4 intro__img">
-                            <div class="col-4 px-1">
-                                <img src="images/VF/MAIN_FARINE-1.jpg" class="img-fluid" alt="">
+                            <div class="col-lg-4 mb-5 px-1">
+                                <img src="images/ENGAGEMENTS/IMG3.jpg" class="img-fluid" alt="">
                             </div>
-                            <div class="col-4 px-1">
-                                <img src="images/VF/LA_PATE-1.jpg" class="img-fluid" alt="">
+                            <div class="col-lg-4 mb-5 px-1">
+                                <img src="images/ENGAGEMENTS/IMG4.jpg" class="img-fluid" alt="">
                             </div>
-                            <div class="col-4 px-1">
-                                <img src="images/VF/TOUR_DE_PATE-1.jpg" class="img-fluid" alt="">
+                            <div class="col-lg-4 px-1">
+                                <img src="images/ENGAGEMENTS/IMG5.jpg" class="img-fluid" alt="">
                             </div>
                         </div>
                         <div class="accordion-wrapper mt-4">
                             <div class="row pb-5">
-                                <div class="col-8 px-3">
+                                <div class="col-md-8 px-3">
                                     <p class="text__part-2 pt-3 pb-2">
                                         Du pain d'une grande qualité nutrionnelle : toutes les matières premières utilisées dans les recettes sont issues de 
                                         l'agriculture paysanne et locale quand cela est possible et sont exclusivement d'origine biologique. 
@@ -74,7 +76,7 @@
                                         En savoir
                                     </button>
                                 </div>
-                                <div class="col-4">
+                                <div class="col-md-4 d-none d-md-block">
                                     <div class="row">
                                         <div class="col-12 py-2 d-flex justify-content-center">
                                             <img src="LOGO/AB.png" alt="" class="img-2 img-fluid">     
@@ -85,7 +87,7 @@
                                     </div>
                                 </div>
                             </div>
-                            <div class="row text-justify accordion-content closed">
+                            <div class="row text-justify order-1 order-md-2 accordion-content closed">
                                 <div class="col-12 px-4">
                                     <p>
                                         Parce qu'elles s'inscrivent dans une réalité socio-économique, nous préférons utiliser pour les céréales le qualificatif de 
@@ -93,13 +95,23 @@
                                     </p>
                                     <p>
                                         Nous panifions au levain naturel sans adjuvant ni ajout de levure (à l'exception des viennoiseries et des baguettes) avec 
-                                        une teneur en sel réduite de 15% à 20% par rapport aux recommandations maximales de l'ANSES. 
+                                        une teneur en sel réduite de 10% à 15% par rapport aux recommandations maximales de l'Agence nationale de sécurité sanitaire de l'alimentation, de l'environnement et du travail. 
                                     </p>
                                     <p>
-                                        Nous travaillons sur le principe de longue fermentation (minimum 20h) qui laisse ainsi aux bactéries lactiques et acétiques 
+                                        Nous travaillons sur le principe de longue fermentation (minimum 12h) qui laisse ainsi aux bactéries lactiques et acétiques 
                                         le temps de réaliser une "prédigestion" du gluten efficace mais aussi de développer les nutriments et les arômes qui rendent 
                                         le pain bon et nourrissant.
                                     </p>
+                                </div>
+                            </div>
+                            <div class="col-md-4 d-block d-md-none">
+                                <div class="row">
+                                    <div class="col-12 py-2 d-flex justify-content-center">
+                                        <img src="LOGO/AB.png" alt="" class="img-2 img-fluid">     
+                                    </div>
+                                    <div class="col-12 py-2 d-flex justify-content-center">
+                                        <img src="images/img-9.jpg" alt="" class="img-3 img-fluid">
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -107,7 +119,7 @@
                             <div class="details__title col-12 pt-3 text-center">
                                 FOURNISSEURS
                             </div>
-                            <div class="col-6 py-4 text-center">
+                            <div class="col-md-6 py-4 text-center">
                                 <p>
                                     Farines:
                                     <br>
@@ -116,7 +128,7 @@
                                     Waldmühle à Hoffen (67)
                                 </p>
                             </div>
-                            <div class="col-6 py-4 text-center">
+                            <div class="col-md-6 py-4 text-center">
                                 <p>
                                     Autres matières premières:
                                     <br>

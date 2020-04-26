@@ -5,13 +5,15 @@
 
 <main>
 
-    <section class="jumbo-image"></section>
+    <section id="jumbo-image-4">
+        <img class="d-block w-100 img-fluid" src="images/CONTACT/IMG1.jpg" alt="Second slide">
+    </section>
 
 
     <section id="contact">
         <div class="container">
             <div class="row">
-                <div class="body col-9 mx-auto">
+                <div class="body col-11 col-md-9 mx-auto">
                     <div class="body__heading mx-auto text-center">
                         <div class="body__heading--title pt-3">
                             <h2>Contact</h2>
@@ -19,7 +21,7 @@
                     </div>
                     
                     <div class="row d-flex form-group align-items-center justify-content-center">
-                        <div class="col-lg-10 p-5 mx-auto">
+                        <div class="col-12 col-lg-10 p-5 mx-auto">
                             <p><i>Pour toute demande de renseignement, merci de renseigner les champs ci-dessous. Pour une réservation de pains et viennoiseries, merci de choisir le champ correspondant dans la case "Objet".</i></p>
                             <form class="pb-5" action="contactform.php" method="post">
 

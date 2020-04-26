@@ -11,7 +11,7 @@ a:hover {
   color: inherit; }
 
 h3 {
-  font-size: 1.3rem;
+  font-size: 1.2rem;
   color: #ce902d; }
 
 h4 {
@@ -49,6 +49,9 @@ h4 {
 #engagements .details {
   line-height: 140%; }
 
+#pointsdevente .subtext {
+  font-size: 0.8rem; }
+
 #produits h3 {
   color: #ce902d; }
 
@@ -68,6 +71,12 @@ h4 {
 .medium {
   font-weight: 500; }
 
+#pointsdevente .schedule {
+  font-size: 0.5rem; }
+
+#pointsdevente .confinement {
+  text-decoration: line-through; }
+
 #pointsdevente i {
   font-size: 2.5rem; }
 
@@ -76,6 +85,10 @@ h4 {
 
 #reservationSpec span {
   font-weight: 600; }
+
+@media (max-width: 1089px) {
+  .text__part-1, .text__part-2 {
+    font-size: 1.2rem; } }
 
 .navbar__logo {
   height: 200px;
@@ -94,6 +107,10 @@ h4 {
 .header__info-box img {
   height: 35px; }
 
+.row {
+  margin-right: 0;
+  margin-left: 0; }
+
 #mainNavbar {
   z-index: 2;
   height: 100px;
@@ -109,7 +126,7 @@ h4 {
 .btn-div {
   position: absolute;
   top: 0px;
-  right: 200px;
+  right: 10vw;
   margin-top: 2px; }
 
 #phone-num {
@@ -123,6 +140,20 @@ h4 {
 
 #contactLoad {
   display: none; }
+
+@media (max-width: 1089px) {
+  #header .container {
+    margin-right: 0;
+    margin-left: 0;
+    max-width: 100%; }
+  #header .row {
+    width: 100%; }
+  .btn-div {
+    right: 5vw; }
+  #mainNavbar {
+    font-size: 0.8rem; }
+  .navbar__logo {
+    height: 150px; } }
 
 @media (max-width: 768px) {
   .navbar__logo {
@@ -140,6 +171,12 @@ h4 {
     display: none; }
   #header .btn-div {
     display: none; } }
+
+@media (max-width: 414px) {
+  #mainNavbar .title1 {
+    width: 80px; }
+  #mainNavbar .title2 {
+    width: 88px; } }
 
 *,
 *::before,
@@ -184,12 +221,6 @@ html {
 .intro__img img {
   max-width: 100%;
   object-fit: cover; }
-
-.jumbo-image-1 {
-  height: 500px;
-  background: url("../images/VF/LA_PREPARATION-1.jpg");
-  background-size: cover;
-  background-position: center; }
 
 #engagements .img-2 {
   max-height: 130px; }
@@ -246,25 +277,6 @@ a#back-to-top {
 #back-to-top.show {
   opacity: 0.8; }
 
-/* Scroll to top button end */
-.carousel-item {
-  height: 450px; }
-
-.carousel-image-1 {
-  background: url("../images/img-4.jpg");
-  background-size: cover;
-  background-position: center; }
-
-.carousel-image-2 {
-  background: url("../images/img-5.jpg");
-  background-size: cover;
-  background-position: center; }
-
-.carousel-image-3 {
-  background: url("../images/img-6.jpg");
-  background-size: cover;
-  background-position: center; }
-
 .learn_more-obj {
   width: 60px;
   height: 30px;
@@ -276,7 +288,8 @@ a#back-to-top {
   background-color: white; }
 
 #pointsdevente iframe {
-  height: 100%; }
+  height: 250px;
+  max-width: 100%; }
 
 #contact select {
   background-color: #ebebeb;
@@ -296,7 +309,13 @@ a#back-to-top {
 
 @media (max-width: 768px) {
   #accueil {
-    position: relative; } }
+    position: relative; }
+  .body {
+    background-color: white; } }
+
+@media (max-width: 1089px) {
+  .body__heading h2 {
+    font-size: 1.2rem; } }
 
 button.accordion {
   border: none;
@@ -350,7 +369,7 @@ button.accordion-2 {
 .accordion-content-2 {
   color: black;
   padding: 0px;
-  max-height: 255px;
+  max-height: 750px;
   overflow: hidden;
   transition-property: max-height, color;
   transition-duration: 0.5s, 1s;
@@ -359,7 +378,8 @@ button.accordion-2 {
 
 #index-gallery .gallery-img {
   width: 100%;
-  height: 160px;
+  height: 0;
+  padding-bottom: 100%;
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -367,35 +387,70 @@ button.accordion-2 {
   border-radius: 1%; }
 
 #index-gallery .img1 {
-  background-image: url("../images/thumbs/img1.jpg"); }
+  background-image: url("../images/PRODUITS/thumbs/img1.jpg"); }
 
 #index-gallery .img2 {
-  background-image: url("../images/thumbs/img2.jpg"); }
+  background-image: url("../images/PRODUITS/thumbs/img2.jpg"); }
 
 #index-gallery .img3 {
-  background-image: url("../images/thumbs/img3.jpg"); }
+  background-image: url("../images/PRODUITS/thumbs/img3.jpg"); }
 
 #index-gallery .img4 {
-  background-image: url("../images/thumbs/img4.jpg"); }
+  background-image: url("../images/PRODUITS/thumbs/img4.jpg"); }
 
 #index-gallery .img5 {
-  background-image: url("../images/thumbs/img5.jpg"); }
+  background-image: url("../images/PRODUITS/thumbs/img5.jpg"); }
 
 #index-gallery .img6 {
-  background-image: url("../images/thumbs/img6.jpg"); }
+  background-image: url("../images/PRODUITS/thumbs/img6.jpg"); }
 
 #index-gallery .img7 {
-  background-image: url("../images/thumbs/img7.jpg"); }
+  background-image: url("../images/PRODUITS/thumbs/img7.jpg"); }
 
 #index-gallery .img8 {
-  background-image: url("../images/thumbs/img8.jpg"); }
+  background-image: url("../images/PRODUITS/thumbs/img8.jpg"); }
 
 #index-gallery .img9 {
-  background-image: url("../images/thumbs/img9.jpg"); }
+  background-image: url("../images/PRODUITS/thumbs/img9.jpg"); }
+
+#index-gallery .img10 {
+  background-image: url("../images/PRODUITS/thumbs/img10.jpg"); }
+
+#index-gallery .img11 {
+  background-image: url("../images/PRODUITS/thumbs/img11.jpg"); }
+
+#index-gallery .img12 {
+  background-image: url("../images/PRODUITS/thumbs/img12.jpg"); }
+
+#index-gallery .img13 {
+  background-image: url("../images/PRODUITS/thumbs/img13.jpg"); }
+
+#index-gallery .img14 {
+  background-image: url("../images/PRODUITS/thumbs/img14.jpg"); }
+
+#index-gallery .img15 {
+  background-image: url("../images/PRODUITS/thumbs/img15.jpg"); }
+
+#index-gallery .img16 {
+  background-image: url("../images/PRODUITS/thumbs/img16.jpg"); }
+
+#index-gallery .img17 {
+  background-image: url("../images/PRODUITS/thumbs/img17.jpg"); }
+
+#index-gallery .img18 {
+  background-image: url("../images/PRODUITS/thumbs/img18.jpg"); }
+
+#index-gallery .img19 {
+  background-image: url("../images/PRODUITS/thumbs/img19.jpg"); }
+
+#index-gallery .img20 {
+  background-image: url("../images/PRODUITS/thumbs/img20.jpg"); }
 
 .gallery-img div {
+  position: relative;
   width: 100%;
   height: 100%;
+  padding-bottom: 100%;
   background-color: white;
   opacity: 0; }
 
@@ -406,7 +461,11 @@ button.accordion-2 {
 
 .gallery-img a {
   font-size: 1.2rem;
-  color: black; }
+  color: black;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translateX(-50%) translateY(-50%); }
 
 .img-window {
   width: 100vw;
@@ -452,3 +511,7 @@ button.accordion-2 {
 
 .img-btn-fa-prev:hover {
   color: white; }
+
+@media (max-width: 1089px) {
+  .img-window img {
+    max-width: 60vw; } }
