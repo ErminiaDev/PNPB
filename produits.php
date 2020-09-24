@@ -133,6 +133,7 @@
                                     <p>
                                         farine d'amidonnier intégral, eau, sel de Guérande, levain de froment
                                     </p>
+                                    <p class="text-danger font-italic small">semaine impaire</p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
                                     <div class=" gallery-img img10">
@@ -167,6 +168,7 @@
                                     <p>
                                         farine de Grand épeautre intégral, eau, sel de Guérande, levain de froment
                                     </p>
+                                    <p class="text-danger font-italic small">semaine paire</p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
                                     <div class=" gallery-img img13">
