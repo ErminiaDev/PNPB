@@ -1,3 +1,50 @@
+<!doctype html>
+<html lang="en">
+<head>
+
+    <!-- description, title, tags, keywords -->
+    <meta name="description" content="">
+    <meta name="keywords" content="boulangerie bio Strasbourg, pain au levain, pain bio Schiltigheim, pain au levain Schiltigheim, pain bio Strasbourg, pain au levain Strasbourg, pain bio Illkirch Graffenstaden, pain au levain Illkirch Graffenstaden">
+    <meta name="title" content="Pain Noir - Pain Blanc - Boulangerie bio au levain">
+        
+    <!-- thumbnail image -->
+    <meta property="og:image" content="" />
+    <meta property="og:image:width" content="100%" />
+    <meta property="og:image:height" content="100%" />
+    <meta property="og:type" content="website" /> 
+    <meta property="og:url" content="https://painnoir-painblanc.fr/index.php" />
+    <meta property="og:title" content="" /> 
+    <meta property="og:description" content="" /> 
+
+    <!-- language tags -->
+    <link rel="alternate" hreflang="fr" href="index.php" />
+
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <meta http-equiv="X-UA-Compatible" content="ie-edge">
+
+    <!-- Google fonts -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
+
+    <!-- Font awesome -->
+    <link rel="stylesheet" href="font-awesome/css/all.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="CSS/bootstrap.css">
+
+    <!-- Personal style sheet -->
+    <link rel="stylesheet" href="CSS/style.css">
+
+    <!-- Favicon -->
+    <link rel="icon" href="LOGO/favicon_io/favicon-16x16.png">
+
+    <title> Produits - Pains bio au levain naturel</title>
+</head>
+<body>
+
+
 <?php include ("header.php");?>
     
 
@@ -34,9 +81,18 @@
                                         </div>
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
-                                    <h4 class="py-3 text-center">Pain de campagne</h4>
-                                    <p class="text-center">
+                                    <h4 class="py-3 mb-0 text-center">Pain de campagne</h4>
+                                    <!-- <p class="text-center">
                                         farine bise de froment, eau, sel de Guérande, levain de seigle intégral
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        Moulé 500g
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        5€
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        ingrédients <i class="fas fa-info-circle"></i>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
