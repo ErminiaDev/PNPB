@@ -96,6 +96,11 @@ padding-top: 20px;
     background-color: $orange;
 }
 
+.btn-ingredients {
+    border: none;
+    background: none;
+}
+
 @media (max-width:768px) {
     #accueil {
         position: relative;

@@ -40,7 +40,7 @@
     <!-- Favicon -->
     <link rel="icon" href="LOGO/favicon_io/favicon-16x16.png">
 
-    <title> Produits - Pains bio au levain naturel</title>
+    <title> Nos pains bio au levain naturel</title>
 </head>
 <body>
 
@@ -86,13 +86,22 @@
                                         farine bise de froment, eau, sel de Guérande, levain de seigle intégral
                                     </p> -->
                                     <p class="text-center mb-2">
-                                        Moulé 500g
+                                        Banneton 600g: 3,33 €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg: 5,55 €
                                     </p>
                                     <p class="text-center mb-2">
-                                        5€
+                                        Moulé 450g: 2,50 €
                                     </p>
                                     <p class="text-center mb-2">
-                                        ingrédients <i class="fas fa-info-circle"></i>
+                                        Moulé 1kg: 5,55 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine bise de froment, eau, sel de Guérande, levain de seigle intégral">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -102,8 +111,27 @@
                                         </div>
                                     </div>
                                     <h4 class="py-3">Pain de campagne aux graines</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine bise de froment, eau, sel de Guérande, levain de seigle intégral, avoine, lin brun, millet, sésame complet, tournesol
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        Banneton 600g: 4,67 €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg: 7,78 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Moulé 450g: 3,50 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Moulé 1kg: 7,78 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine bise de froment, eau, sel de Guérande, levain de seigle intégral, avoine, lin brun, millet, sésame complet, tournesol">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                        
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -113,9 +141,28 @@
                                         </div>
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
-                                    <h4 class="py-3">Pain de campagne au sésame</h4>
-                                    <p>
+                                    <h4 class="py-3">Pain de campagne enrobé sésame</h4>
+                                    <!-- <p>
                                        farine bise de froment, eau, sel de Guérande, levain de seigle naturel, sésame complet 
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        Moulé 450g: 3,50 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Moulé 1kg: 7,78 €
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine bise de froment, eau, sel de Guérande, levain de seigle naturel, sésame complet">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                        
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -125,9 +172,27 @@
                                         </div>
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
-                                    <h4 class="py-3">Pain de campagne aux graines de courge</h4>
-                                    <p>
+                                    <h4 class="py-3">Pain de campagne enrobé graines de courge</h4>
+                                    <!-- <p>
                                         farine bise de froment, eau, sel de Guérande, levain de seigle intégral, graines de courge
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        Moulé 450g: 4 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Moulé 1kg: 8,89 €
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine bise de froment, eau, sel de Guérande, levain de seigle intégral, graines de courge">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -137,9 +202,27 @@
                                         </div>
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
-                                    <h4 class="py-3">Pain campagne brioché aux fruits</h4>
-                                    <p>
+                                    <h4 class="py-3">Pain de campagne aux fruits</h4>
+                                    <!-- <p>
                                         farine bise de froment, eau, sel de Guérande, levain de seigle intégral, abricot, figue, raisin, noisette torréfiées, huile de colza, sucre de canne blond
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        Moulé 450g, 4 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Moulé 1kg, 8,89 €
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine bise de froment, eau, sel de Guérande, levain de seigle intégral, abricot, figue, raisin, noisette torréfiées, huile de colza, sucre de canne blond">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -150,8 +233,26 @@
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
                                     <h4 class="py-3">Pain complet</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine bise de froment, eau, sel de Guérande, levain de seigle intégral et levain de son
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        Banneton 600g: 3,90 €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg: 6,50 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Moulé 450g: 2,93 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Moulé 1kg: 6,50 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine bise de froment, eau, sel de Guérande, levain de seigle intégral et levain de son">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -162,8 +263,26 @@
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
                                     <h4 class="py-3">Tourte de seigle</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine de seigle intégral eau, sel de Guérande, levain de seigle intégral
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        Banneton et moulé: non calibré, vendu au poids 6,50 €/kg
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Moulé 1kg: x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g: x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg: x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de seigle intégral eau, sel de Guérande, levain de seigle intégral">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -174,8 +293,26 @@
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
                                     <h4 class="py-3">Sechskornbrot</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine de seigle intégral et farine bise de froment, eau, sel de Guérande, levain de seigle intégral, avoine, lin brun, millet, sésame complet, tournesol, graines de courge
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        Moulé 450g, 4 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Moulé 1kg, 8,89 €
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de seigle intégral et farine bise de froment, eau, sel de Guérande, levain de seigle intégral, avoine, lin brun, millet, sésame complet, tournesol, graines de courge">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -186,8 +323,26 @@
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
                                     <h4 class="py-3">Amidonnier</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine d'amidonnier intégral, eau, sel de Guérande, levain de froment
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        Banneton et moulé: non calibré, vendu au poids 8,50 €/kg
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Moulé 1kg, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine d'amidonnier intégral, eau, sel de Guérande, levain de froment">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                     <p class="text-danger font-italic small">semaine impaire</p>
                                 </div>
@@ -198,8 +353,26 @@
                                         </div>
                                     </div>
                                     <h4 class="py-3">Petit épeautre (engrain)</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine de petit épeautre intégral, eau, sel de Guérande, levain de petit épeautre intégral
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        Moulé 450g, 5 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Moulé 1kg, 11,11 €
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de petit épeautre intégral, eau, sel de Guérande, levain de petit épeautre intégral">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -209,8 +382,26 @@
                                         </div>
                                     </div>
                                     <h4 class="py-3">Sans blé</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine de riz semi-complet, farine de sarrasin, farine de maïs, psyllium, eau, sel de Guérande, levain de riz
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        Moulé 450g, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Moulé 1kg, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de riz semi-complet, farine de sarrasin, farine de maïs, psyllium, eau, sel de Guérande, levain de riz">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -221,8 +412,26 @@
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
                                     <h4 class="py-3">Grand épeautre "Rouge du tyrol"</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine de Grand épeautre intégral, eau, sel de Guérande, levain de froment
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        Banneton et moulé: non calibré, vendu au poids 8,50 €/kg
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Moulé 1kg, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de Grand épeautre intégral, eau, sel de Guérande, levain de froment">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                     <p class="text-danger font-italic small">semaine paire</p>
                                 </div>
@@ -234,8 +443,26 @@
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
                                     <h4 class="py-3">Croissant</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine blanche de froment, eau, beurre cru, sel de Guérande, sucre blond de canne, beurre sec, levain de froment, levure
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        1,20 €
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Moulé 1kg, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, eau, beurre cru, sel de Guérande, sucre blond de canne, beurre sec, levain de froment, levure">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -246,8 +473,26 @@
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
                                     <h4 class="py-3">Pain au chocolat</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine blanche de froment, eau, beurre cru, sel de Guérande, sucre de canne blond, beurre sec, chocolat noir, levain de froment, levure
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        1,30 €
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Moulé 1kg, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, eau, beurre cru, sel de Guérande, sucre de canne blond, beurre sec, chocolat noir, levain de froment, levure">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -258,8 +503,26 @@
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
                                     <h4 class="py-3">Croix à la cannelle</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine blanche de froment, eau, beurre cru, sel de Guérande, sucre blond de canne, beurre sec, cannelle, levain de froment, levure
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        1,50 €
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Moulé 1kg, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, eau, beurre cru, sel de Guérande, sucre blond de canne, beurre sec, cannelle, levain de froment, levure">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -270,8 +533,26 @@
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
                                     <h4 class="py-3">Brioche nature</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine blanche de froment, oeufs, eau, beurre cru, sel de Guérande, sucre blond de canne, levure
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        17,90 €/kg
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Moulé 1kg, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, eau, beurre cru, sel de Guérande, sucre blond de canne, levure">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -282,8 +563,26 @@
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
                                     <h4 class="py-3">Brioche au chocolat</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine de blanche de froment, oeufs, eau, beurre cru, sel de Guérande, sucre blond de canne, pépites de chocolat, levure
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        19,90 €/kg
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Moulé 1kg, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de blanche de froment, oeufs, eau, beurre cru, sel de Guérande, sucre blond de canne, pépites de chocolat, levure">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -294,8 +593,26 @@
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
                                     <h4 class="py-3">Kougelhopf</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine blanche de froment, oeufs, lait, eau, beurre cru, sel de Guérande, sucre blond de canne, raisins, amandes, levain de froment, levure
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        18,90 €/kg
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Moulé 1kg, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, lait, eau, beurre cru, sel de Guérande, sucre blond de canne, raisins, amandes, levain de froment, levure">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -306,8 +623,26 @@
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
                                     <h4 class="py-3">Mini-kougelhopf</h4>
-                                    <p>
+                                    <!-- <p>
                                         farine blanche de froment, oeufs, lait, eau, beurre cru, sel de Guérande, sucre blond de canne, raisins, amandes, levain de froment, levure
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        1,70 €
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Moulé 1kg, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, lait, eau, beurre cru, sel de Guérande, sucre blond de canne, raisins, amandes, levain de froment, levure">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -317,9 +652,27 @@
                                         </div>
                                             <!-- <img src="images/img-15.jpg" alt="" class="img-fluid shadow"> -->
                                     </div>
-                                    <h4 class="py-3">Pain burger</h4>
-                                    <p>
+                                    <h4 class="py-3">Bun (petit pain burger)</h4>
+                                    <!-- <p>
                                         farine blanche de froment, oeufs, eau, beurre cru, sel de Guérande, sucre blond de canne, levain de froment, levure
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        1,20 €
+                                    </p>
+                                    <!-- <p class="text-center mb-2">
+                                        Moulé 1kg, x €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g, x €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg, x €
+                                    </p> -->
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, eau, beurre cru, sel de Guérande, sucre blond de canne, levain de froment, levure">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
                                     </p>
                                 </div>
                             </div>

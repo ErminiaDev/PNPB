@@ -68,6 +68,9 @@ h4 {
   color: #ce902d;
   font-size: 1.2rem; }
 
+#produits p .small {
+  font-size: 0.8rem; }
+
 .medium {
   font-weight: 500; }
 
@@ -306,6 +309,10 @@ a#back-to-top {
 
 .btn-submit {
   background-color: #ce902d; }
+
+.btn-ingredients {
+  border: none;
+  background: none; }
 
 @media (max-width: 768px) {
   #accueil {
