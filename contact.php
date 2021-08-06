@@ -72,21 +72,6 @@
                             <p><i>Pour toute demande de renseignement, merci de renseigner les champs ci-dessous. Pour une réservation de pains et viennoiseries, merci de choisir le champ correspondant dans la case "Objet".</i></p>
                             <form class="pb-5" action="contactform.php" method="post">
 
-                                <!-- DROPDOWN BUTTON SOLUTION -->
-
-                                <!-- <div class="dropdown pb-3 py-2 text-black">
-                                    <label for="dropdownMenu1" class="mb-1 py-2 d-block"><span class="cap">O</span>bjet</label>
-                                    <button class="ml-2 btn dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                       -- spécifier l'objet --
-                                    </button>
-                                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
-                                        <button type="button" id="firstContact" name="contact" class="dropdown-item py-2" href="#firstContact">Prise de contact</button>
-                                        <button type="button" id="reservation" name="reservation" class="dropdown-item py-2" href="#reservation">Réservation</button>
-                                    </div>
-                                </div> -->
-
-                                <!-- RADIO BUTTON SOLUTION                 -->
-
                                 <div class="d-block">
                                     <label for="firstcontact" class="mb-1 py-2">Prise de Contact</label>
                                     <input type="radio" id="firstContact" value="contact" name="typeOfContact" class="ml-2" href="#firstContact">
@@ -96,20 +81,6 @@
                                     <input type="radio" id="reservation" value="reservation" name="typeOfContact" class=" ml-2" href="#reservation">
                                 </div>
                                 
-                                <!-- DROPDOWN <a> SOLUTION -->
-
-                                <!-- <div class="pb-2 dropdown py-2">
-                                    <label for="dropdownMenu1" class="mb-1 py-2 d-block"><span class="cap">O</span>bjet</label>
-                                    <select class="ml-2 btn dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false" required oninvalid="this.setCustomValidity('Ce champ est obligatoire')">
-                                        <div class="dropdown-menu" aria-labelledby="dropdownMenu1"><i class="fas fa-sort-down"></i>
-                                            <option value ="" name="Objet" disabled selected class="dropdown-item my-2" type="button">-- spécifier l'objet --</option>
-                                            <option id="firstContact" value ="prisedecontact" name="contact" class="dropdown-item py-2" type="button">Prise de contact</option>
-                                            <option id="reservation" value ="reservation" name="reservation" class="dropdown-item py-2" type="button">Réservation</option>
-                                        </div>$message = "contact is selected";
-        echo "<script type='text/javascript'>alert('$message');</script>";
-
-                                    </select>
-                                </div> -->
                                 <small id="reservationSpec" class="ml-2 mb-2 form-text text-danger">Comme nous travaillons sur des fermentations longues, pensez à faire votre réservation au moins <span>48h</span> à l'avance afin que nous puissions l'intégrer dans notre production. Au-delà de cette période, nous serons pas en mesure de vous garantir la disponibilité des produits que vous souhaitez.</small>
 
                                 <label for="InputName" class="mb-1 py-2"><span class="cap">N</span>om complet</label>
@@ -127,6 +98,8 @@
 
                                 <label for="InputMessage" class="mt-2"><span class="cap">M</span>essage</label>
                                 <textarea name="message" class="ml-2 form-control text-muted" cols="30" rows="6" placeholder="Message"></textarea>
+
+                                <small id="reservationConf" class="ml-2 mb-2 form-text text-danger">Nous accusons toujours réception de vos demandes de réservation. Si vous n'avez pas de retour de notre part dans les 48h, merci d'envoyer directement votre demande à contact@painnoir-painblanc.fr ou de téléphoner au 06.10.80.98.21</small>
 
                                 <label for="submit" class="mt-2"></label>
                                 <input type="submit" name="submit" value="Envoyer un email!"class="ml-1 my-4 btn btn-submit">

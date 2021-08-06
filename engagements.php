@@ -2,10 +2,11 @@
 <html lang="en">
 <head>
 
-    <!-- description, title, tags, keywords -->
+    <!-- description, title, tags, keywords, robots -->
     <meta name="description" content="">
     <meta name="keywords" content="boulangerie bio Strasbourg, pain au levain, pain bio Schiltigheim, pain au levain Schiltigheim, pain bio Strasbourg, pain au levain Strasbourg, pain bio Illkirch Graffenstaden, pain au levain Illkirch Graffenstaden">
-    <meta name="title" content="Pain Noir - Pain Blanc - Boulangerie bio au levain">
+    <meta name="title" content="Nos engagements de qualité">
+    <meta name="robots" content="noindex">
         
     <!-- thumbnail image -->
     <meta property="og:image" content="" />

@@ -36,6 +36,12 @@
     <script type="text/javascript" src="javascript/contact.js"></script>
     <script type="text/javascript" src="javascript/backtotop.js"></script>
     <script>
+
+    //modal on first page
+    $(document).ready(function(){
+        $("#myModal").modal('show');
+    });
+ 
     // Get the current year for the copyright
     $('.footer__developer--year').text(new Date().getFullYear());
 

@@ -65,6 +65,7 @@
                     </div>
                     <div class="px-md-5">
                         <div class="py-5 row">
+                            <p class="lead text-center my-5 font-italic">Comme nous travaillons sur des fermentations longues, pensez à faire votre réservation au moins <span>48h</span> à l'avance afin que nous puissions l'intégrer dans notre production. Au-delà de cette période, nous serons pas en mesure de vous garantir la disponibilité des produits que vous souhaitez.</p>
                             <div class="row">
                                 <div class="col-12 col-sm-6 col-xl-4 py-3">
                                     <div class=" gallery-img img1">
@@ -116,7 +117,6 @@
                                         <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine bise de froment, eau, sel de Guérande, levain de seigle intégral, avoine, lin brun, millet, sésame complet, tournesol">
                                             <i class="fas fa-info-circle"></i>
                                         </button>
-                                        
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
@@ -227,10 +227,11 @@
                                     </p>
                                     <p class="text-center mb-2">
                                         ingrédients
-                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de riz semi-complet, farine de sarrasin, farine de maïs, psyllium, eau, sel de Guérande, levain de riz">
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine bise de froment, eau, sel de Guérande, levain de seigle intégral, noix">
                                             <i class="fas fa-info-circle"></i>
                                         </button>
                                     </p>
+                                    <p class="text-danger font-italic small">uniquement le samedi et pendant les fêtes</p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
                                     <div class=" gallery-img img8">
@@ -253,7 +254,7 @@
                                     </p>
                                     <p class="text-center mb-2">
                                         ingrédients
-                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de riz semi-complet, farine de sarrasin, farine de maïs, psyllium, eau, sel de Guérande, levain de riz">
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, eau, sel de Guérande, levain de froment">
                                             <i class="fas fa-info-circle"></i>
                                         </button>
                                     </p>
@@ -345,7 +346,7 @@
                                     </p>
                                     <p class="text-center mb-2">
                                         ingrédients
-                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de riz semi-complet, farine de sarrasin, farine de maïs, psyllium, eau, sel de Guérande, levain de riz">
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de seigle intégral et farine bise de froment, eau, sel de Guérande, levain de seigle intégral">
                                             <i class="fas fa-info-circle"></i>
                                         </button>
                                     </p>
@@ -369,7 +370,7 @@
                                     <p class="text-danger font-italic small">semaine paire</p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
-                                    <div class=" gallery-img img15">
+                                    <div class="gallery-img img15">
                                         <div>
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
@@ -503,6 +504,11 @@
                                             <i class="fas fa-info-circle"></i>
                                         </button>
                                     </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center d-flex align-items-end">
+                                    <h4 class="text-center mb-2 pb-5">
+                                        N'hésitez pas à nous contacter à propos de nos produits saisonniers
+                                    </h4>
                                 </div>
                                 
                             </div>

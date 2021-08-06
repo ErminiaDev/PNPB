@@ -17,6 +17,13 @@ h3 {
 h4 {
   font-size: 1.0rem; }
 
+#myModal h3 {
+  font-size: 1.4rem; }
+
+#myModal .modal-body {
+  font-size: 1.3rem;
+  line-height: 140%; }
+
 .intro {
   line-height: 140%; }
   .intro span {

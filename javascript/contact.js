@@ -10,22 +10,25 @@
 
 
 var reservationSpec = document.querySelector('#reservationSpec');
+var reservationConf = document.querySelector('#reservationConf');
 var numberLabel = document.querySelector('#numberLabel');
 var numberInput = document.querySelector('#numberInput');
-var dropdown = document.querySelector("#dropdownMenuButton")
+var dropdown = document.querySelector("#dropdownMenuButton");
 
-var firstContact = document.querySelector("#firstContact")
-var reservation = document.querySelector("#reservation")
+var firstContact = document.querySelector("#firstContact");
+var reservation = document.querySelector("#reservation");
 
 
 reservation.addEventListener('click', function(){
     reservationSpec.style.display = "block";
+    reservationConf.style.display = "block";
     numberLabel.style.display = "block";
     numberInput.style.display = "block";
 });
 
 firstContact.addEventListener('click', function(){
     reservationSpec.style.display = "none";
+    reservationConf.style.display = "none";
     numberLabel.style.display = "none";
     numberInput.style.display = "none";
 });

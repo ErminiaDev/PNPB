@@ -77,7 +77,7 @@
                                             <p class="pt-2">17 rue de Lauterbourg</p>
                                             <p class="pb-5">67300 SCHILTIGHEIM</p>
                                             <h4>Horaires d'ouverture:</h4>
-                                            <p>Du mardi au vendredi de 15h30 à 19h30</p>
+                                            <p>Du mardi au vendredi de 15h30 à 19h00</p>
                                             <p>Le samedi de 7h30 à 12h30</p>
                                         </div>
                                     <!-- <div>

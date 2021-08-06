@@ -41,6 +41,7 @@
     <link rel="icon" href="LOGO/favicon_io/favicon-16x16.png">
 
     <title>Boulangerie Bio au levain</title>
+
 </head>
 <body>
 
@@ -49,7 +50,27 @@
     
 
 <main id="accueil">
-
+    <section id="modal">
+        <div class="modal fade" id="myModal" tabindex="-1" role="dialog" >
+          <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+              <div class="modal-header">
+                <h3 class="modal-title text-center" id="exampleModalLongTitle">Congés annuels</h3>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                  <span aria-hidden="true">&times;</span>
+                </button>
+              </div>
+              <div class="modal-body py-4 text-center">
+                Chers clients,
+                <br><br>
+                La boulangerie Pain Noir Pain Blanc sera fermée pour ses congés annuels <b> du 1er au 30 août </b>. Nous vous accueillerons de nouveau à partir du <b>mardi 31 août</b>.
+                <br><br>
+                A bientôt!
+              </div>
+            </div>
+          </div>
+        </div>
+    </section>
     <!------------------------- CAROUSEL --------------------------------------------------------------->
 
     <section id="showcase">
