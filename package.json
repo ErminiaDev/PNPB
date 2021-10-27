@@ -1,17 +1,47 @@
 {
-  "name": "pnpb",
-  "version": "1.0.0",
-  "description": "Landing Page for Pain noir - Pain blanc",
-  "main": "index.js",
-  "scripts": {
-    "compile:sass": "node-sass SCSS/style.scss CSS/style.css -w"
+  "name": "local-minifier",
+  "version": "0.1.0",
+  "description": "A local environment to minify CSS, JS, & HTML files",
+  "license": "Apache-2.0",
+  "author": "Amardeep Rai",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/amardeeprai/local-minifier"
   },
-  "author": "Marine Jeanningros",
-  "license": "ISC",
+  "private": true,
+  "browserslist": [
+    "ff 88",
+    "Edge 16",
+    "Safari 11",
+    "Chrome 93",
+    "Android 4.4",
+    "iOS 12",
+    "Opera 60",
+    "ie 11"
+  ],
+  "scripts": {
+    "compile:sass": "node-sass src/SCSS/style.scss src/CSS/style.css -w"
+  },
   "devDependencies": {
-    "node-sass": "^4.13.0"
+    "@babel/core": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "gulp-purgecss": "^4.0.3",
+    "node-sass": "^6.0.1"
   },
   "dependencies": {
-    "jquery": "^3.4.1"
+    "del": "^6.0.0",
+    "gulp": "^4.0.2",
+    "gulp-autoprefixer": "^8.0.0",
+    "gulp-babel": "^8.0.0",
+    "gulp-csso": "^4.0.1",
+    "gulp-htmlmin": "^5.0.1",
+    "gulp-sass": "^5.0.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp4-run-sequence": "^1.0.1",
+    "jquery": "^3.6.0",
+    "run-sequence": "^2.2.1"
+  },
+  "engines": {
+    "node": ">=0.12.0"
   }
 }

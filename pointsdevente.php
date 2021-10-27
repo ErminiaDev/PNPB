@@ -32,10 +32,10 @@
     <link rel="stylesheet" href="font-awesome/css/all.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
 
     <!-- Personal style sheet -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="dist/css/style.css">
 
     <!-- Favicon -->
     <link rel="icon" href="LOGO/favicon_io/favicon-16x16.png">
@@ -95,12 +95,15 @@
                                     <div class="col-12 col-md-10 mx-auto">
                                         <img src="images/POINTS_DE_VENTE/IMG2.jpg" alt="" class="img-fluid pb-4">
                                             <!-- <p class="text-danger font-weight-bold text-center">ATTENTION! Tous les marchés ne sont pas assurés pour le moment en raison de restrictions dûes à la crise sanitaire.</p> -->
-                                            <p class="text-center"><span class="medium">Strasbourg - Musée d'Art Moderne</span> - mercredi de 7h30 à 13h</p>
+                                            <p class="text-center"><span class="medium">Strasbourg - Musée d'Art Moderne</span> - mercredi de 7h30 à 12h</p>
+                                            <p class="text-center"><span class="medium">Illkirch-Graffenstaden</span> - mercredi de 7h30 à 13h</p>
                                             <p class="text-center"><span class="medium">Schiltigheim</span> - jeudi de 7h30 à 12h</p>
+                                            <p class="text-center"><span class="medium">Muttersholtz</span> - jeudi de 16h à 19h30</p>
                                             <!-- <p class="text-center confinement"><span class="medium">Bischheim</span> - vendredi de 7h30 à 12h</p> -->
                                             <p class="text-center"><span class="medium">Bischheim</span> - vendredi de 7h30 à 12h</p>
                                             <!-- <p class="text-center confinement"><span class="medium">Illkirch-Graffenstaden</span> - samedi de 7h30 à 12h</p>                            -->
-                                            <p class="text-center"><span class="medium">Illkirch-Graffenstaden</span> - samedi de 7h30 à 12h</p>                           
+                                            <!-- <p class="text-center"><span class="medium">Illkirch-Graffenstaden</span> - samedi de 7h30 à 12h</p> -->                           
+                                            <p class="text-center"><span class="medium">Eckbolsheim</span> - samedi de 7h30 à 12h</p>                           
                                             <p class="text-center"><span class="medium">Schiltigheim - Hall du Scilt</span> - samedi de 9h à 13h</p>                           
                                     </div>
                                 
@@ -116,29 +119,55 @@
                                                 <i class="fas fa-store"></i>
                                                 <p class="pt-3">Lorem ipsum</p>
                                             </div> -->
-                                            <div class="col-12 pb-5 pb-md-2 text-center">
+                                            <div class="col-6 pb-5 pb-md-2 text-center">
                                                 <p class="mb-1 pt-3">Côté Nature - Cronenbourg</p>
                                                 <p class="subtext mb-1">8 Place de l'Abattoir</p>
                                                 <p class="subtext mb-1">Strasbourg</p>
                                             </div>
-                                            <div class="col-12 pb-5 pb-md-2 text-center">
+                                            <div class="col-6 pb-5 pb-md-2 text-center">
                                                 <p class="mb-1 pt-3">Côté Nature - Souffelweyersheim</p>
                                                 <p class="subtext mb-1">2 Route de Brumath</p>
                                                 <p class="subtext mb-1">Souffelweyersheim</p>
                                             </div>
-                                            <div class="col-12 pb-5 pb-md-2 text-center">
+                                            <div class="col-6 pb-5 pb-md-2 text-center">
                                                 <p class="mb-1 pt-3">Côté Nature - Illkirch</p>
                                                 <p class="subtext mb-1">13 Rue de l'Industrie</p>
                                                 <p class="subtext mb-1">Illkirch Graffenstaden</p>
                                             </div>
-                                            <div class="col-12 pb-5 pb-md-2 text-center">
+                                            <div class="col-6 pb-5 pb-md-2 text-center">
                                                 <p class="mb-1 pt-3">Coopalim</p>
                                                 <p class="subtext mb-1">7 Rue Kageneck</p>
                                                 <p class="subtext mb-1">Strasbourg</p>
                                             </div>
-                                            <div class="col-12 pb-5 pb-md-2 text-center">
+                                            <div class="col-6 pb-5 pb-md-2 text-center">
                                                 <p class="mb-1 pt-3">Les Jardins de la Montagne Verte</p>
                                                 <p class="subtext mb-1">5 Avenue du cimetière</p>
+                                                <p class="subtext mb-1">Strasbourg</p>
+                                            </div>
+                                            <div class="col-6 pb-5 pb-md-2 text-center">
+                                                <p class="mb-1 pt-3">Satoriz Geispolsheim</p>
+                                                <p class="subtext mb-1">ZI Hotellerie de l'Ill</p>
+                                                <p class="subtext mb-1">Pont du Péage</p>
+                                                <p class="subtext mb-1">Geispolsheim</p>
+                                            </div>
+                                            <div class="col-6 pb-5 pb-md-2 text-center">
+                                                <p class="mb-1 pt-3">Biocoop Coquelicot</p>
+                                                <p class="subtext mb-1">68 Route du Polygone</p>
+                                                <p class="subtext mb-1">Strasbourg</p>
+                                            </div>
+                                            <div class="col-6 pb-5 pb-md-2 text-center">
+                                                <p class="mb-1 pt-3">Biocoop Neudorf</p>
+                                                <p class="subtext mb-1">68 Route du Polygone</p>
+                                                <p class="subtext mb-1">Strasbourg</p>
+                                            </div>
+                                            <div class="col-6 pb-5 pb-md-2 text-center">
+                                                <p class="mb-1 pt-3">Biocoop Ostwald</p>
+                                                <p class="subtext mb-1">1 allée Santiano</p>
+                                                <p class="subtext mb-1">Ostwald</p>
+                                            </div>
+                                            <div class="col-6 pb-5 pb-md-2 text-center">
+                                                <p class="mb-1 pt-3">La Nouvelle Douane</p>
+                                                <p class="subtext mb-1">Rue du Vieux-Marché-Aux-Poissons</p>
                                                 <p class="subtext mb-1">Strasbourg</p>
                                             </div>
 

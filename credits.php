@@ -32,10 +32,10 @@
     <link rel="stylesheet" href="font-awesome/css/all.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
 
     <!-- Personal style sheet -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="dist/css/style.css">
 
     <!-- Favicon -->
     <link rel="icon" href="LOGO/favicon_io/favicon-16x16.png">

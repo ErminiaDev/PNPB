@@ -32,10 +32,10 @@
     <link rel="stylesheet" href="font-awesome/css/all.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
 
     <!-- Personal style sheet -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="dist/css/style.css">
 
     <!-- Favicon -->
     <link rel="icon" href="LOGO/favicon_io/favicon-16x16.png">
@@ -166,7 +166,7 @@
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="py-3">Pain de campagne aux fruits</h4>
+                                    <h4 class="py-3">Pain brioché aux fruits</h4>
                                     <p class="text-center mb-2">
                                         Moulé 450g: 4 €
                                     </p>
@@ -182,6 +182,26 @@
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
                                     <div class=" gallery-img img6">
+                                        <div>
+                                            <a  href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="py-3">Campagne aux fruits</h4>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g: 5.34 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        Banneton 1kg: 8,89 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine bise de froment, eau, sel de Guérande, levain de seigle intégral, abricot, figue, raisin, noisette">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
+                                    <div class=" gallery-img img7">
                                         <div>
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
@@ -207,7 +227,7 @@
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
-                                    <div class=" gallery-img img7">
+                                    <div class=" gallery-img img8">
                                         <div>
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
@@ -231,10 +251,9 @@
                                             <i class="fas fa-info-circle"></i>
                                         </button>
                                     </p>
-                                    <p class="text-danger font-italic small">uniquement le samedi et pendant les fêtes</p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
-                                    <div class=" gallery-img img8">
+                                    <div class=" gallery-img img9">
                                         <div>
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
@@ -260,7 +279,7 @@
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
-                                    <div class=" gallery-img img9">
+                                    <div class=" gallery-img img10">
                                         <div>
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
@@ -277,7 +296,7 @@
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
-                                    <div class=" gallery-img img10">
+                                    <div class=" gallery-img img11">
                                         <div>
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
@@ -297,7 +316,7 @@
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
-                                    <div class=" gallery-img img11">
+                                    <div class=" gallery-img img12">
                                         <div>
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
@@ -315,7 +334,7 @@
                                     <p class="text-danger font-italic small">semaine impaire</p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
-                                    <div class=" gallery-img img12">
+                                    <div class=" gallery-img img13">
                                         <div>
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
@@ -335,14 +354,14 @@
                                     </p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
-                                    <div class=" gallery-img img13">
+                                    <div class=" gallery-img img14">
                                         <div>
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
                                     </div>
                                     <h4 class="py-3">Méteil</h4>
                                     <p class="text-center mb-2">
-                                        Banneton et moulé: non calibré, vendu au poids à 6,50€/kg
+                                        Banneton 600g: 3.90€
                                     </p>
                                     <p class="text-center mb-2">
                                         ingrédients
@@ -351,7 +370,7 @@
                                         </button>
                                     </p>
                                 </div>
-                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
+                                <!-- <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
                                     <div class=" gallery-img img14">
                                         <div>
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
@@ -368,9 +387,51 @@
                                         </button>
                                     </p>
                                     <p class="text-danger font-italic small">semaine paire</p>
+                                </div> -->
+                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
+                                    <div class=" gallery-img img15">
+                                        <div>
+                                            <a  href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="py-3">Khorazan</h4>
+                                    <p class="text-center mb-2">
+                                        Banneton 600g: 5,70 €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Banneton 1kg: 9,50 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine bise de khorazan, levain de seigle intégral, sel de Guérande">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </p>
+                                    <p class="text-danger font-italic small">semaine paire</p>
                                 </div>
                                 <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
-                                    <div class="gallery-img img15">
+                                    <div class=" gallery-img img16">
+                                        <div>
+                                            <a  href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="py-3">Sans blé riz-sarrasin</h4>
+                                    <p class="text-center mb-2">
+                                        Moulé 450g: 5,70 €
+                                    </p>
+                                    <p class="text-center mb-3">
+                                        Moulé 1250g: 9,50 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de riz blanc, levain de riz, farine de sarrasin, eau, sel de Guérande, huile d'olive">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </p>
+                                    <p class="text-danger font-italic small">semaine paire</p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
+                                    <div class="gallery-img img17">
                                         <div>
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
@@ -381,41 +442,7 @@
                                     </p>
                                     <p class="text-center mb-2">
                                         ingrédients
-                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, eau, beurre cru, sel de Guérande, sucre blond de canne, beurre sec, levain de froment, levure">
-                                            <i class="fas fa-info-circle"></i>
-                                        </button>
-                                    </p>
-                                </div>
-                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
-                                    <div class=" gallery-img img16">
-                                        <div>
-                                            <a  href="#"><i class="fas fa-search-plus"></i></a>
-                                        </div>
-                                    </div>
-                                    <h4 class="py-3">Pain au chocolat</h4>
-                                    <p class="text-center mb-2">
-                                        1,30 €
-                                    </p>
-                                    <p class="text-center mb-2">
-                                        ingrédients
-                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, eau, beurre cru, sel de Guérande, sucre de canne blond, beurre sec, chocolat noir, levain de froment, levure">
-                                            <i class="fas fa-info-circle"></i>
-                                        </button>
-                                    </p>
-                                </div>
-                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
-                                    <div class=" gallery-img img17">
-                                        <div>
-                                            <a  href="#"><i class="fas fa-search-plus"></i></a>
-                                        </div>
-                                    </div>
-                                    <h4 class="py-3">Croix à la cannelle</h4>
-                                    <p class="text-center mb-2">
-                                        1,50 €
-                                    </p>
-                                    <p class="text-center mb-2">
-                                        ingrédients
-                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, eau, beurre cru, sel de Guérande, sucre blond de canne, beurre sec, cannelle, levain de froment, levure">
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, eau, beurre, sel de Guérande, sucre blond de canne, beurre sec, levain de froment, levure">
                                             <i class="fas fa-info-circle"></i>
                                         </button>
                                     </p>
@@ -426,13 +453,13 @@
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="py-3">Brioche nature</h4>
+                                    <h4 class="py-3">Pain au chocolat</h4>
                                     <p class="text-center mb-2">
-                                        17,90 €/kg
+                                        1,30 €
                                     </p>
                                     <p class="text-center mb-2">
                                         ingrédients
-                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, eau, beurre cru, sel de Guérande, sucre blond de canne, levure">
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, eau, beurre, sel de Guérande, sucre de canne blond, beurre sec, chocolat noir, levain de froment, levure">
                                             <i class="fas fa-info-circle"></i>
                                         </button>
                                     </p>
@@ -443,13 +470,13 @@
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="py-3">Brioche au chocolat</h4>
+                                    <h4 class="py-3">Croix à la cannelle</h4>
                                     <p class="text-center mb-2">
-                                        19,90 €/kg
+                                        1,50 €
                                     </p>
                                     <p class="text-center mb-2">
                                         ingrédients
-                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de blanche de froment, oeufs, eau, beurre cru, sel de Guérande, sucre blond de canne, pépites de chocolat, levure">
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, eau, beurre, sel de Guérande, sucre blond de canne, beurre sec, cannelle, levain de froment, levure">
                                             <i class="fas fa-info-circle"></i>
                                         </button>
                                     </p>
@@ -460,13 +487,13 @@
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="py-3">Kougelhopf</h4>
+                                    <h4 class="py-3">Brioche nature</h4>
                                     <p class="text-center mb-2">
-                                        18,90 €/kg
+                                        17,90 €/kg
                                     </p>
                                     <p class="text-center mb-2">
                                         ingrédients
-                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, lait, eau, beurre cru, sel de Guérande, sucre blond de canne, raisins, amandes, levain de froment, levure">
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, eau, beurre, sel de Guérande, sucre blond de canne, levure">
                                             <i class="fas fa-info-circle"></i>
                                         </button>
                                     </p>
@@ -477,13 +504,13 @@
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
                                     </div>
-                                    <h4 class="py-3">Mini-kougelhopf</h4>
+                                    <h4 class="py-3">Brioche au chocolat</h4>
                                     <p class="text-center mb-2">
-                                        1,70 €
+                                        19,90 €/kg
                                     </p>
                                     <p class="text-center mb-2">
                                         ingrédients
-                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, lait, eau, beurre cru, sel de Guérande, sucre blond de canne, raisins, amandes, levain de froment, levure">
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine de blanche de froment, oeufs, eau, beurre, sel de Guérande, sucre blond de canne, pépites de chocolat, levure">
                                             <i class="fas fa-info-circle"></i>
                                         </button>
                                     </p>
@@ -494,19 +521,92 @@
                                             <a  href="#"><i class="fas fa-search-plus"></i></a>
                                         </div>
                                     </div>
+                                    <h4 class="py-3">Kougelhopf</h4>
+                                    <p class="text-center mb-2">
+                                        18,90 €/kg
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, lait, eau, beurre, sel de Guérande, sucre blond de canne, raisins, amandes, levain de froment, levure">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
+                                    <div class=" gallery-img img23">
+                                        <div>
+                                            <a  href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="py-3">Mini-kougelhopf sucré</h4>
+                                    <p class="text-center mb-2">
+                                        1,70 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, lait, eau, beurre, sel de Guérande, sucre blond de canne, raisins, amandes, levain de froment, levure">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
+                                    <div class=" gallery-img img24">
+                                        <div>
+                                            <a  href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="py-3">Mini-kougelhopf salé</h4>
+                                    <p class="text-center mb-2">
+                                        2,30 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, lait, eau, beurre, sel de Guérande, sucre blond de canne, noix, Feta, origan, huile d'olive, levain de froment, levure">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
+                                    <div class=" gallery-img img25">
+                                        <div>
+                                            <a  href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                    </div>
                                     <h4 class="py-3">Bun (petit pain burger)</h4>
                                     <p class="text-center mb-2">
                                         1,20 €
                                     </p>
                                     <p class="text-center mb-2">
                                         ingrédients
-                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, eau, beurre cru, sel de Guérande, sucre blond de canne, levain de froment, levure">
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, oeufs, eau, beurre, sel de Guérande, sucre blond de canne, levain de froment, levure">
                                             <i class="fas fa-info-circle"></i>
                                         </button>
                                     </p>
                                 </div>
-                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center d-flex align-items-end">
-                                    <h4 class="text-center mb-2 pb-5">
+                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
+                                    <div class=" gallery-img img26">
+                                        <div>
+                                            <a  href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="py-3">Bretzel</h4>
+                                    <p class="text-center mb-2">
+                                        1,50 €
+                                    </p>
+                                    <p class="text-center mb-2">
+                                        ingrédients
+                                        <button type="button" class="btn btn-ingredients px-0 " data-container="body" data-toggle="popover" data-placement="bottom" data-content="farine blanche de froment, eau, lait, beurre, sel de Guérande, sucre blond de canne, levure, bicarbonate de soude">
+                                            <i class="fas fa-info-circle"></i>
+                                        </button>
+                                    </p>
+                                </div>
+                                <div class="col-12 col-sm-6 col-xl-4 py-3 text-center">
+                                    <div class=" gallery-img img27">
+                                        <div>
+                                            <a  href="#"><i class="fas fa-search-plus"></i></a>
+                                        </div>
+                                    </div>
+                                    <h4 class="py-3">
                                         N'hésitez pas à nous contacter à propos de nos produits saisonniers
                                     </h4>
                                 </div>
