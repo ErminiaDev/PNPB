@@ -25,17 +25,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
 
     <!-- Google fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Montserrat:200,200i,300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Sacramento" rel="stylesheet">
 
     <!-- Font awesome -->
     <link rel="stylesheet" href="font-awesome/css/all.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="CSS/bootstrap.css">
+    <link rel="stylesheet" href="dist/css/bootstrap.css">
 
     <!-- Personal style sheet -->
-    <link rel="stylesheet" href="CSS/style.css">
+    <link rel="stylesheet" href="dist/css/style.css">
 
     <!-- Favicon -->
     <link rel="icon" href="LOGO/favicon_io/favicon-16x16.png">
@@ -50,12 +49,12 @@
     
 
 <main id="accueil">
-    <section id="modal">
+    <!-- <section id="modal">
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" >
           <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
               <div class="modal-header">
-                <h3 class="modal-title text-center" id="exampleModalLongTitle">Congés annuels</h3>
+                <h3 class="modal-title text-center" id="exampleModalLongTitle">Travaux</h3>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                   <span aria-hidden="true">&times;</span>
                 </button>
@@ -63,14 +62,14 @@
               <div class="modal-body py-4 text-center">
                 Chers clients,
                 <br><br>
-                La boulangerie Pain Noir Pain Blanc sera fermée pour ses congés annuels <b> du 1er au 30 août </b>. Nous vous accueillerons de nouveau à partir du <b>mardi 31 août</b>.
+                En raison de travaux nous sommes dans l'obligation de reporter l'ouverture de la boulangerie au <b>samedi 11 septembre</b>.
                 <br><br>
-                A bientôt!
+                A bientôt
               </div>
             </div>
           </div>
         </div>
-    </section>
+    </section> -->
     <!------------------------- CAROUSEL --------------------------------------------------------------->
 
     <section id="showcase">
@@ -89,6 +88,15 @@
             </div>
             <div class="carousel-item">
             <img class="d-block w-100" src="images/ACCUEIL/IMG3.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="images/ACCUEIL/IMG7.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="images/ACCUEIL/IMG8.jpg" alt="Third slide">
+            </div>
+            <div class="carousel-item">
+            <img class="d-block w-100" src="images/ACCUEIL/IMG9.jpg" alt="Third slide">
             </div>
         </div>
         <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
