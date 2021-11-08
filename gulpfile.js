@@ -62,6 +62,11 @@ gulp.task('pages', function() {
     .pipe(gulp.dest('./dist'));
 });
 
+gulp.task('images', function() {
+  return gulp.src('./images/**/*')
+  .pipe(gulp.dest('./dist/images'));
+})
+
 gulp.task('purgecss', () => {
     return gulp.src('./src/CSS/**/*.css')
         .pipe(purgecss({
@@ -80,6 +85,7 @@ gulp.task('default', gulp.series('clean', function (done) {
     'styles',
     'scripts',
     'pages',
+    'images',
     'purgecss'
   );
     done();
