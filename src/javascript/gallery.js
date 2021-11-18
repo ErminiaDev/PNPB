@@ -2,6 +2,7 @@
 
 // fetching all the images with a query selector, will be stored as an array
 let galleryImages = document.querySelectorAll(".gallery-img");
+
 // defining a variable that will be equal to the latest opened image
 let getLatestOpenedImg;
 //defining a variable that will fetch the browser's current window's width
@@ -15,20 +16,26 @@ if (galleryImages) {
         image.onclick = function () {
             //getComputedStyle() will get the styles inside the CSS files whilst getInlineStyle() gets the HTML inline style
             let getElementCss = window.getComputedStyle(image);
+           
             //we want to fetch one specific property inside of these computed styles
             let getFullImgUrl = getElementCss.getPropertyValue("background-image");
+            
             //we want to split the given url to take out what is unnecessary
             let getImgUrlPos = getFullImgUrl.split("/images/PRODUITS/thumbs/");
+            
+
             //we take out the )" out of the second item of the split array because it is unneccesary
             let SetNewImgUrl = getImgUrlPos[1].replace('")', '');
-
+            
             //we define the variable getLatestOpenedImg as being the index + 1 so that it makes more sense to is than javascript enumeration
             getLatestOpenedImg = index + 1;
-
+            
             //this is where the full image will appear
             let container = document.body;
+            
             //we want to create a new div at the end of the html
             let newImgWindow = document.createElement("div");
+            
             //we want it to be a child element of the body
             container.appendChild(newImgWindow);
             //setting a class of .img-window that is going to be defined in the CSS file
@@ -38,6 +45,7 @@ if (galleryImages) {
 
             //creating an img element 
             let newImg = document.createElement("img");
+            
             //putting it inside the div we just created
             newImgWindow.appendChild(newImg);
             //setting a source attribute to the image and giving the right path
@@ -49,14 +57,19 @@ if (galleryImages) {
                 
                 //defining variables that will help place the button properly no matter what the width of the image is
                 let imgWidth = this.width;
-                // let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
+                
+                let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
+                
+
                 let imgToEdge = 10;
 
                 // creating a left navigation arrow
                 //creating an anchor tag
-                newPrevBtn = document.createElement("a");
+                let newPrevBtn = document.createElement("a");
+                
                 //inside of it an i tag for font awesome
-                PrevBtnFa = document.createElement("i");
+                let PrevBtnFa = document.createElement("i");
+                
                 //attributing font awesome classes as well as another class to style the button
                 PrevBtnFa.setAttribute("class", "fas fa-arrow-circle-left img-btn-fa-prev");
                 //attributing a class to style the parent anchor element
@@ -71,8 +84,8 @@ if (galleryImages) {
                 newPrevBtn.style.cssText = "left: " + imgToEdge + "vw";
 
                 // creating a right navigation arrow
-                newNextBtn = document.createElement("a");
-                NextBtnFa = document.createElement("i");
+                let newNextBtn = document.createElement("a");
+                let NextBtnFa = document.createElement("i");
                 NextBtnFa.setAttribute("class", "fas fa-arrow-circle-right img-btn-fa-next");
                 newNextBtn.setAttribute("class", "img-btn-next");
                 newNextBtn.setAttribute("onclick", "changeImg(1)");
@@ -128,7 +141,7 @@ function changeImg(changeDir) {
     //setting the right attributes to the new image
     newImg.setAttribute("src", "images/PRODUITS/img" + calcNewImg + ".jpg");
     newImg.setAttribute("id", "current-img");
-    console.log(newImg);
+    
 
     //defining the latest opened image as the new image's number
     getLatestOpenedImg = calcNewImg;
@@ -145,5 +158,3 @@ function changeImg(changeDir) {
         prevBtn.style.cssText = "left: " + calcImgToEdge + "vw";
     }
 }
-
-var galleryImageWidth = document.getElementsByClassName()

@@ -54,7 +54,7 @@ gulp.task('scripts', function() {
 
 // Gulp task to minify HTML files
 gulp.task('pages', function() {
-  return gulp.src(['./**/*.php'])
+  return gulp.src(['./src/**/*.php'])
     .pipe(htmlmin({
       collapseWhitespace: true,
       removeComments: true
@@ -63,12 +63,40 @@ gulp.task('pages', function() {
 });
 
 gulp.task('images', function() {
-  return gulp.src('./images/**/*')
+  return gulp.src('./src/images/**/*')
   .pipe(gulp.dest('./dist/images'));
 })
 
-gulp.task('purgecss', () => {
-    return gulp.src('./src/CSS/**/*.css')
+gulp.task('logo', function() {
+  return gulp.src('./src/LOGO/**/*')
+  .pipe(gulp.dest('./dist/LOGO'));
+})
+
+gulp.task('fonts', function() {
+  return gulp.src('./src/fonts/**/*')
+  .pipe(gulp.dest('./dist/fonts'));
+})
+
+gulp.task('font-awesome', function() {
+  return gulp.src('./src/font-awesome/**/*')
+  .pipe(gulp.dest('./dist/font-awesome'));
+})
+
+gulp.task('icons', function() {
+  return gulp.src('./src/ICONS/**/*')
+  .pipe(gulp.dest('./dist/ICONS'));
+})
+
+gulp.task('purgebootstrapcss', () => {
+    return gulp.src('./src/CSS/bootstrap.css')
+        .pipe(purgecss({
+            content: ['./**/*.php']
+        }))
+        .pipe(gulp.dest('./dist/css'))
+})
+
+gulp.task('purgefontawesomecss', () => {
+    return gulp.src('./src/font-awesome/css/**/*')
         .pipe(purgecss({
             content: ['./**/*.php']
         }))
@@ -86,7 +114,12 @@ gulp.task('default', gulp.series('clean', function (done) {
     'scripts',
     'pages',
     'images',
-    'purgecss'
+    'logo',
+    'fonts',
+    'font-awesome',
+    'icons',
+    'purgebootstrapcss',
+    'purgefontawesomecss'
   );
     done();
 }));
