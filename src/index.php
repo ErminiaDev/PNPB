@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="font-awesome/css/all.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
     <!-- Personal style sheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -49,6 +49,7 @@
     
 
 <main id="accueil">
+
     <!-- <section id="modal">
         <div class="modal fade" id="myModal" tabindex="-1" role="dialog" >
           <div class="modal-dialog modal-dialog-centered" role="document">
@@ -81,19 +82,10 @@
         </ol>
         <div class="carousel-inner">
             <div class="carousel-item active">
-            <img class="d-block w-100" src="images/ACCUEIL/IMG1.jpg" alt="First slide">
+            <img class="d-block w-100" src="images/ACCUEIL/IMG2.jpg" alt="First slide">
             </div>
             <div class="carousel-item">
-            <img class="d-block w-100" src="images/ACCUEIL/IMG2.jpg" alt="Second slide">
-            </div>
-            <div class="carousel-item">
-            <img class="d-block w-100" src="images/ACCUEIL/IMG3.jpg" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-            <img class="d-block w-100" src="images/ACCUEIL/IMG7.jpg" alt="Third slide">
-            </div>
-            <div class="carousel-item">
-            <img class="d-block w-100" src="images/ACCUEIL/IMG8.jpg" alt="Third slide">
+            <img class="d-block w-100" src="images/ACCUEIL/IMG3.jpg" alt="Second slide">
             </div>
             <div class="carousel-item">
             <img class="d-block w-100" src="images/ACCUEIL/IMG9.jpg" alt="Third slide">

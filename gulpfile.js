@@ -67,6 +67,11 @@ gulp.task('images', function() {
   .pipe(gulp.dest('./dist/images'));
 })
 
+gulp.task('files', function() {
+  return gulp.src('./src/FILES/**/*')
+  .pipe(gulp.dest('./dist/FILES'));
+})
+
 gulp.task('logo', function() {
   return gulp.src('./src/LOGO/**/*')
   .pipe(gulp.dest('./dist/LOGO'));
@@ -87,13 +92,13 @@ gulp.task('icons', function() {
   .pipe(gulp.dest('./dist/ICONS'));
 })
 
-gulp.task('purgebootstrapcss', () => {
-    return gulp.src('./src/CSS/bootstrap.css')
-        .pipe(purgecss({
-            content: ['./**/*.php']
-        }))
-        .pipe(gulp.dest('./dist/css'))
-})
+//gulp.task('purgebootstrapcss', () => {
+//    return gulp.src('./src/CSS/bootstrap.css')
+//        .pipe(purgecss({
+//            content: ['./**/*.php']
+//        }))
+//        .pipe(gulp.dest('./dist/css'))
+//})
 
 gulp.task('purgefontawesomecss', () => {
     return gulp.src('./src/font-awesome/css/**/*')
@@ -114,11 +119,12 @@ gulp.task('default', gulp.series('clean', function (done) {
     'scripts',
     'pages',
     'images',
+    'files',
     'logo',
     'fonts',
     'font-awesome',
     'icons',
-    'purgebootstrapcss',
+    //'purgebootstrapcss',
     'purgefontawesomecss'
   );
     done();

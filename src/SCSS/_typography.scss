@@ -1,4 +1,4 @@
-@font-face {
+/* @font-face {
  font-family: "Montserrat";
  src: url("../fonts/Montserrat/MontSerrat-ExtraLight.ttf") format("truetype");
  font-weight: 200;
@@ -61,7 +61,7 @@
  src: url("../fonts/Montserrat/MontSerrat-SemiBoldItalic.ttf") format("truetype");
  font-weight: 600;
  font-style: italic;
-}
+} */
 
 @font-face {
  font-family: "Sacramento";
@@ -147,28 +147,57 @@ h4 {
     font-size: 0.8rem;
 }
 
-#produits h3 {
+#index-gallery h3 {
     color: $orange;
 }
 
-#produits h4 {
+#index-gallery h4 {
     color: $orange;
     font-weight: 300;
 }
 
-#produits .items p {
+#index-gallery .items p {
     line-height: 120%;
     font-size: 0.9rem;
     font-weight: 300;
 }
 
-#produits h5 {
+#index-gallery h5 {
     color: $orange;
     font-size: 1.2rem;
 }
 
-#produits p .small {
+#index-gallery p.lead {
+    line-height: 120%;
+}
+
+#index-gallery p.lead b {
+    text-decoration: underline;
+}
+
+#index-gallery p.lead b a {
+    text-decoration: none;
+}
+
+#index-gallery p .small {
     font-size: 0.8rem;
+}
+
+#index-gallery .fa-holly-berry {
+    color:red;
+    font-size: 1.5em;
+}
+
+#index-gallery .fa-download {
+    font-size: 1.2em;
+}
+
+.popover {
+    text-align: center;
+}
+
+.popover-title {
+    text-align: center;
 }
 
 .medium {

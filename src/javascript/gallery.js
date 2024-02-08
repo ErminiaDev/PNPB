@@ -56,9 +56,9 @@ if (galleryImages) {
             newImg.onload = function(){
                 
                 //defining variables that will help place the button properly no matter what the width of the image is
-                let imgWidth = this.width;
+                //let imgWidth = this.width;
                 
-                let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
+                //let calcImgToEdge = ((windowWidth - imgWidth) / 2) - 80;
                 
 
                 let imgToEdge = 10;
@@ -138,7 +138,7 @@ function changeImg(changeDir) {
         } 
     }
 
-    //setting the right attributes to the new image
+    /*//setting the right attributes to the new image
     newImg.setAttribute("src", "images/PRODUITS/img" + calcNewImg + ".jpg");
     newImg.setAttribute("id", "current-img");
     
@@ -156,5 +156,5 @@ function changeImg(changeDir) {
 
         let prevBtn = document.querySelector('.img-btn-prev');
         prevBtn.style.cssText = "left: " + calcImgToEdge + "vw";
-    }
+    }*/
 }

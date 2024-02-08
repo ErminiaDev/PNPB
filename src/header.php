@@ -1,11 +1,11 @@
 
     <!-- Back to top button -->
     <div id="top"></div> 
-        <a href="#top" id="back-to-top" style="display: inline;">
-        <div>
-            <i class="up"></i>
-        </div>
-        </a>
+    <a href="#top" id="back-to-top" style="display: inline;">
+    <div>
+        <i class="up"></i>
+    </div>
+    </a>
 
     <!-- header -->
     <header id="header">
@@ -58,6 +58,9 @@
                 <li class="nav-item px-md-3 px-lg-4">
                     <a href="pointsdevente.php" class="nav-link text-right">Points de vente</a>
                 </li>
+                <li class="nav-item px-md-3 px-lg-4">
+                    <a href="actualites.php" class="nav-link text-right">Actualités</a>
+                </li>
                 <li class="nav-item px-md-3 px-lg-4 d-none d-md-block">
                     <a href="contact.php" class="nav-link text-right">Contact</a>
                 </li>
@@ -69,3 +72,14 @@
         </div>
         </nav>
     </header>
+
+<!-------------------------------------------- SPECIAL FETES --------------------------------------------->
+
+<!-- <div id="temp-announcements" class="row justify-content-center">
+    <a id="christmas-button" href="FILES/commande_noel_2022.pdf" class="lead btn btn-success mb-3 text-light special-products" download="commande_noel_2022.pdf">
+        <i class="fas fa-download mr-2"></i>
+        Faites vos commandes pour les fêtes
+        <i class="fas fa-holly-berry ml-2"></i>
+    </a>
+</div> -->
+    

@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="font-awesome/css/all.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
     <!-- Personal style sheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -80,7 +80,7 @@
                                     <input type="radio" id="reservation" value="reservation" name="typeOfContact" class=" ml-2" href="#reservation">
                                 </div>
                                 
-                                <small id="reservationSpec" class="ml-2 mb-2 form-text text-danger">Comme nous travaillons sur des fermentations longues, pensez à faire votre réservation au moins <span>48h</span> à l'avance afin que nous puissions l'intégrer dans notre production. Au-delà de cette période, nous serons pas en mesure de vous garantir la disponibilité des produits que vous souhaitez.</small>
+                                <small id="reservationSpec" class="ml-2 mb-2 form-text text-danger">Comme nous travaillons sur des fermentations longues, pensez à faire votre réservation au moins <span>72h</span> à l'avance afin que nous puissions l'intégrer dans notre production. Au-delà de cette période, nous serons pas en mesure de vous garantir la disponibilité des produits que vous souhaitez.</small>
 
                                 <label for="InputName" class="mb-1 py-2"><span class="cap">N</span>om complet</label>
                                 <input type="text" name="fullName" class="ml-2 mb-2 form-control" id="InputName" placeholder="Entrez votre nom complet">
@@ -98,7 +98,7 @@
                                 <label for="InputMessage" class="mt-2"><span class="cap">M</span>essage</label>
                                 <textarea name="message" class="ml-2 form-control text-muted" cols="30" rows="6" placeholder="Message"></textarea>
 
-                                <small id="reservationConf" class="ml-2 mb-2 form-text text-danger">Nous accusons toujours réception de vos demandes de réservation. Si vous n'avez pas de retour de notre part dans les 48h, merci d'envoyer directement votre demande à contact@painnoir-painblanc.fr ou de téléphoner au 06.10.80.98.21</small>
+                                <!-- <small id="reservationConf" class="ml-2 mb-2 form-text text-danger">Nous accusons toujours réception de vos demandes de réservation. Si vous n'avez pas de retour de notre part dans les 48h, merci d'envoyer directement votre demande à contact@painnoir-painblanc.fr ou de téléphoner au 06.10.80.98.21</small> -->
 
                                 <label for="submit" class="mt-2"></label>
                                 <input type="submit" name="submit" value="Envoyer un email!"class="ml-1 my-4 btn btn-submit">

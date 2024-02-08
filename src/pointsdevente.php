@@ -31,7 +31,7 @@
     <link rel="stylesheet" href="font-awesome/css/all.css">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
 
     <!-- Personal style sheet -->
     <link rel="stylesheet" href="css/style.css">
@@ -94,18 +94,18 @@
                                     <div class="col-12 col-md-10 mx-auto">
                                         <img src="images/POINTS_DE_VENTE/IMG2.jpg" alt="" class="img-fluid pb-4">
                                             <!-- <p class="text-danger font-weight-bold text-center">ATTENTION! Tous les marchés ne sont pas assurés pour le moment en raison de restrictions dûes à la crise sanitaire.</p> -->
-                                            <p class="text-center"><span class="medium">Strasbourg - Musée d'Art Moderne</span> - mercredi de 7h30 à 12h</p>
-                                            <p class="text-center"><span class="medium">Illkirch-Graffenstaden</span> - mercredi de 7h30 à 13h</p>
-                                            <p class="text-center"><span class="medium">Schiltigheim</span> - jeudi de 7h30 à 12h</p>
-                                            <p class="text-center"><span class="medium">Muttersholtz</span> - jeudi de 16h à 19h30</p>
+                                            <p class="text-center"><span class="medium">Strasbourg La Marne</span>: mardi 7h30 - 12h</p>
+                                            <p class="text-center"><span class="medium">Strasbourg Musée d'Art Moderne</span>: mercredi 7h30 - 12h</p>
+                                            <p class="text-center"><span class="medium">Illkirch-Graffenstaden</span>: mercredi 7h30 - 13h</p>
+                                            <p class="text-center"><span class="medium">Schiltigheim</span>: jeudi 7h30 - 12h</p>
+                                            <p class="text-center"><span class="medium">Strasbourg Musée d'Art Moderne</span>: vendredi 7h30 - 12h</p>
                                             <!-- <p class="text-center confinement"><span class="medium">Bischheim</span> - vendredi de 7h30 à 12h</p> -->
-                                            <p class="text-center"><span class="medium">Bischheim</span> - vendredi de 7h30 à 12h</p>
+                                            <p class="text-center"><span class="medium">Bischheim</span>: vendredi 7h30 - 12h</p>
                                             <!-- <p class="text-center confinement"><span class="medium">Illkirch-Graffenstaden</span> - samedi de 7h30 à 12h</p>                            -->
-                                            <!-- <p class="text-center"><span class="medium">Illkirch-Graffenstaden</span> - samedi de 7h30 à 12h</p> -->                           
-                                            <p class="text-center"><span class="medium">Eckbolsheim</span> - samedi de 7h30 à 12h</p>                           
-                                            <p class="text-center"><span class="medium">Schiltigheim - Hall du Scilt</span> - samedi de 9h à 13h</p>                           
+                                            <p class="text-center"><span class="medium">Illkirch-Graffenstaden</span> - samedi de 7h30 à 12h</p>                           
+                                            <p class="text-center"><span class="medium">Eckbolsheim</span>: samedi 7h30 - 12h</p>                           
+                                            <!-- <p class="text-center"><span class="medium">Schiltigheim: Hall du Scilt</span>: samedi 9h - 13h</p> -->                           
                                     </div>
-                                
                                 </div>
                             </div>
                             <div class="accordion-wrapper-2">
@@ -144,10 +144,15 @@
                                                 <p class="subtext mb-1">Strasbourg</p>
                                             </div>
                                             <div class="col-6 pb-5 pb-md-2 text-center">
-                                                <p class="mb-1 pt-3">Satoriz Geispolsheim</p>
+                                                <p class="mb-1 pt-3">Satoriz - Geispolsheim</p>
                                                 <p class="subtext mb-1">ZI Hotellerie de l'Ill</p>
                                                 <p class="subtext mb-1">Pont du Péage</p>
                                                 <p class="subtext mb-1">Geispolsheim</p>
+                                            </div>
+                                            <div class="col-6 pb-5 pb-md-2 text-center">
+                                                <p class="mb-1 pt-3">Satoriz - Vendenheim</p>
+                                                <p class="subtext mb-1">15 rue du Commerce</p>
+                                                <p class="subtext mb-1">Vendenheim</p>
                                             </div>
                                             <div class="col-6 pb-5 pb-md-2 text-center">
                                                 <p class="mb-1 pt-3">Biocoop Coquelicot</p>
@@ -155,14 +160,19 @@
                                                 <p class="subtext mb-1">Strasbourg</p>
                                             </div>
                                             <div class="col-6 pb-5 pb-md-2 text-center">
-                                                <p class="mb-1 pt-3">Biocoop Neudorf</p>
+                                                <p class="mb-1 pt-3">Biocoop - Neudorf</p>
                                                 <p class="subtext mb-1">68 Route du Polygone</p>
                                                 <p class="subtext mb-1">Strasbourg</p>
                                             </div>
                                             <div class="col-6 pb-5 pb-md-2 text-center">
-                                                <p class="mb-1 pt-3">Biocoop Ostwald</p>
+                                                <p class="mb-1 pt-3">Biocoop - Ostwald</p>
                                                 <p class="subtext mb-1">1 allée Santiano</p>
                                                 <p class="subtext mb-1">Ostwald</p>
+                                            </div>
+                                            <div class="col-6 pb-5 pb-md-2 text-center">
+                                                <p class="mb-1 pt-3">Biocoop - Schiltigheim</p>
+                                                <p class="subtext mb-1">97 route de Bischwiller</p>
+                                                <p class="subtext mb-1">Schiltigheim</p>
                                             </div>
                                             <div class="col-6 pb-5 pb-md-2 text-center">
                                                 <p class="mb-1 pt-3">La Nouvelle Douane</p>
@@ -184,14 +194,14 @@
                                 <div class="row accordion-content">
                                     <div class="col-12 col-md-8 mx-auto text-center">
                                         <p>Vous êtes intéressez par la vente de pain au sein de votre structure?</p>
-                                        <p><a href="#contact">Contactez-nous</a></p>
+                                        <p><a href="https://www.painnoir-painblanc.fr/contact.php#contact">Contactez-nous</a></p>
                                     </div>
                                 </div>
                             </div> 
                             <div class="row pt-5 pb-2">
                                 <div class="col-12 col-md-10 pb-2 mx-auto text-center text-medium">
                                     <p class="lead">Vous souhaitez développer un point de vente ou de distribution de nos produits?</p>
-                                    <p class="lead"><a href="#contact" class="medium">Prenez contact</a> avec nous!</p>
+                                    <p class="lead"><a href="https://www.painnoir-painblanc.fr/contact.php#contact" class="medium">Prenez contact</a> avec nous!</p>
                                 </div>
                             </div>                           
                         </div>
